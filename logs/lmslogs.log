@@ -1,0 +1,25 @@
+2024-04-26 00:14:12 [main] INFO  utilities.LoggerLoad - Loading Config file
+2024-04-26 00:14:12 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-04-26 00:14:16 [main] INFO  utilities.LoggerLoad - Initializing driver for : firefox
+2024-04-26 00:14:17 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-04-26 00:14:18 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-04-26 00:15:00 [main] INFO  utilities.LoggerLoad - Loading Config file
+2024-04-26 00:15:00 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-04-26 00:15:03 [main] INFO  utilities.LoggerLoad - Initializing driver for : firefox
+2024-04-26 00:15:03 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-04-26 00:16:27 [main] INFO  utilities.LoggerLoad - Loading Config file
+2024-04-26 00:16:27 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-04-26 00:16:30 [main] INFO  utilities.LoggerLoad - Initializing driver for : firefox
+2024-04-26 00:16:30 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-04-26 00:18:38 [main] INFO  utilities.LoggerLoad - Loading Config file
+2024-04-26 00:18:38 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-04-26 00:18:41 [main] INFO  utilities.LoggerLoad - Initializing driver for : firefox
+2024-04-26 00:18:43 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-04-26 00:18:43 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-04-26 00:18:51 [main] INFO  utilities.LoggerLoad - Loading Config file
+2024-04-26 00:18:51 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-04-26 00:18:55 [main] INFO  utilities.LoggerLoad - Initializing driver for : firefox
+2024-04-26 00:18:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-04-26 00:18:57 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-04-26 00:18:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on dashboard page
+2024-04-26 00:18:57 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS

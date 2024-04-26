@@ -33,14 +33,14 @@ public class ConfigReader {
 		browserType=browser;
 	}
 	
-	public static String getBrowserType() throws Throwable {
-		//String browser = properties.getProperty("browser");
-		LoggerLoad.info("Get property BrowserType");
-		if (browserType != null)
-			return browserType;
-		else
-			throw new RuntimeException("browser not specified in the config.properties file.");
-	}
+//	public static String getBrowserType() throws Throwable {
+//		//String browser = properties.getProperty("browser");
+//		LoggerLoad.info("Get property BrowserType");
+//		if (browserType != null)
+//			return browserType;
+//		else
+//			throw new RuntimeException("browser not specified in the config.properties file.");
+//	}
 	
 //	public static String getBrowserType()throws Throwable {
 //        String browser = properties.getProperty("browser");
@@ -51,6 +51,13 @@ public class ConfigReader {
 //			throw new RuntimeException("browser not specified in the config.properties file.");
 //	}
 	
+	public static String getBrowserType() {
+		 browserType = properties.getProperty("browser");
+		if (browserType != null)
+			return browserType;
+		else
+			throw new RuntimeException("browser not specified in the testng.xml");
+	}
 	public static String getExcelFilepPath() {
 		String path=properties.getProperty("excelpath");
 	//	LoggerLoad.info("Get property BrowserType");

@@ -8,17 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.ConfigReader;
 import utilities.DriverFactory;
 
-public class LoginPage {
-
-
+public class LogOutPage {
 	public  static WebDriver driver=DriverFactory.getdriver();
 	String lmsUrl=ConfigReader.getUrl();
+
+	@FindBy (xpath="//button[@id='logout']")WebElement logOutBtn;
 	
-	@FindBy (id="username") static WebElement username;
-	@FindBy (id="password")static WebElement password;
-	@FindBy (xpath="//button[@type='submit']")WebElement loginBtn;
-	
-	public LoginPage() {
+	public LogOutPage() {
 
 		PageFactory.initElements(driver, this);
 	}
@@ -27,19 +23,13 @@ public class LoginPage {
 		driver.get(lmsUrl);
 	}
 
+
 	public String getTitle() {
 		return driver.getTitle();
 	}
-
-	public void setLogin() {
-		String	uname="sdetorganizers@gmail.com";
-		String pwd="UIHackathon@02";
-		username.sendKeys(uname);
-		password.sendKeys(pwd);
-	}
-
-	public void clickLoginBtn() {
-		loginBtn.click();
+	
+	public void clickLogOutBtn() {
+		logOutBtn.click();
 
 	}
 }

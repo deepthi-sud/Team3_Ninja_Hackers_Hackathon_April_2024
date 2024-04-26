@@ -21,13 +21,13 @@ public class hooks {
 	public static void before() throws Throwable {
 		
 //		Reading browser name from Config.properties File
-		//LoggerLoad.info("Loading Config file");
+		LoggerLoad.info("Loading Config file");
 		ConfigReader.loadConfig();
 		String browser = ConfigReader.getBrowserType();
 		
 		//Initializing Driver using Driver Factory
 	    driver = DriverFactory.initializeDrivers(browser);
-		//LoggerLoad.info("Initializing driver for : "+browser);
+		LoggerLoad.info("Initializing driver for : "+browser);
 
 	}
 	
