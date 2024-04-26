@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,9 +15,9 @@ public class LoginPage {
 	public  static WebDriver driver=DriverFactory.getdriver();
 	String lmsUrl=ConfigReader.getUrl();
 	
-	@FindBy (id="username") static WebElement username;
-	@FindBy (id="password")static WebElement password;
-	@FindBy (xpath="//button[@type='submit']")WebElement loginBtn;
+	By username=By.id("username");
+	By password=By.id("password");
+	By loginBtn=By.xpath("//button[@type='submit']");
 	
 	public LoginPage() {
 
@@ -34,12 +35,12 @@ public class LoginPage {
 	public void setLogin() {
 		String	uname="sdetorganizers@gmail.com";
 		String pwd="UIHackathon@02";
-		username.sendKeys(uname);
-		password.sendKeys(pwd);
+		driver.findElement(username).sendKeys(uname);
+		driver.findElement(password).sendKeys(pwd);
 	}
 
 	public void clickLoginBtn() {
-		loginBtn.click();
+		driver.findElement(loginBtn).click();
 
 	}
 }

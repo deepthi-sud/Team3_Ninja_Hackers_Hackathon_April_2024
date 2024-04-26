@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/features",
 glue={"stepdefinitions","apphooks"},
-plugin = {"pretty",
+plugin = {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 "html:Reports/Cucumber-Reports/Reports.html"}
 //monochrome = true
 		)

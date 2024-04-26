@@ -10,24 +10,17 @@ import utilities.DriverFactory;
 
 public class LogOutPage {
 	public  static WebDriver driver=DriverFactory.getdriver();
-	String lmsUrl=ConfigReader.getUrl();
-
 	@FindBy (xpath="//button[@id='logout']")WebElement logOutBtn;
-	
+
 	public LogOutPage() {
 
 		PageFactory.initElements(driver, this);
 	}
 
-	public void getLoginPage() {
-		driver.get(lmsUrl);
-	}
-
-
 	public String getTitle() {
 		return driver.getTitle();
 	}
-	
+
 	public void clickLogOutBtn() {
 		logOutBtn.click();
 
