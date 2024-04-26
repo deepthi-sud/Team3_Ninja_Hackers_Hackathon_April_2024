@@ -2,10 +2,8 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
+import constants.Constants;
 import utilities.ConfigReader;
 import utilities.DriverFactory;
 
@@ -19,13 +17,8 @@ public class LoginPage {
 	By password=By.id("password");
 	By loginBtn=By.xpath("//button[@type='submit']");
 	
-	public LoginPage() {
-
-		PageFactory.initElements(driver, this);
-	}
-
 	public void getLoginPage() {
-		driver.get(lmsUrl);
+		driver.get(Constants.URL);
 	}
 
 	public String getTitle() {
@@ -33,10 +26,8 @@ public class LoginPage {
 	}
 
 	public void setLogin() {
-		String	uname="sdetorganizers@gmail.com";
-		String pwd="UIHackathon@02";
-		driver.findElement(username).sendKeys(uname);
-		driver.findElement(password).sendKeys(pwd);
+		driver.findElement(username).sendKeys(Constants.user_name);
+		driver.findElement(password).sendKeys(Constants.pass_word);
 	}
 
 	public void clickLoginBtn() {

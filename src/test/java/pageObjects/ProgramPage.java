@@ -20,7 +20,7 @@ public class ProgramPage extends LoginPage{
 	
 	WebDriver driver=DriverFactory.getdriver();
 	String browser = ConfigReader.getBrowserType();
-	String url = ConfigReader.getDashUrl();
+	//String url = ConfigReader.getDashUrl();
 		
 	Wait<WebDriver> wait =
 	        new FluentWait<>(driver)
@@ -51,7 +51,7 @@ public class ProgramPage extends LoginPage{
 		
 		public void getMainPage() {
 			
-			driver.get(url);
+	//		driver.get(url);
 		}
 		public void doClick() throws InterruptedException {
 			driver.wait();

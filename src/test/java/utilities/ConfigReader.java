@@ -20,6 +20,8 @@ public class ConfigReader {
 			properties = new Properties();
 			properties.load(getClass().getResourceAsStream("/Config.properties"));
 			Constants.URL=properties.getProperty("url");
+			Constants.user_name=properties.getProperty("username");
+			Constants.pass_word=properties.getProperty("password");
 			  try { properties.load(fis); fis.close(); } catch (IOException e) {
 			  e.printStackTrace(); }
 			 
@@ -50,4 +52,5 @@ public class ConfigReader {
 				else
 					throw new RuntimeException("URL not specified in the config.properties file.");	
 	}
+	
 }

@@ -1,3 +1,4 @@
+@login
 Feature: Validating Login Page
 
   Scenario: Verify admin is able to land on home page

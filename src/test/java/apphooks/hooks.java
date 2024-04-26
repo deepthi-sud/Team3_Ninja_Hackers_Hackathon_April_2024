@@ -1,5 +1,7 @@
 package apphooks;
 
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 
@@ -15,21 +17,41 @@ import io.cucumber.java.Scenario;
 public class hooks {
 	private static WebDriver driver;
 	private static DriverFactory driverfactory;
+	private static ConfigReader configReader;
+	private static Properties properties;
 	static Scenario scenario;
-	
+
+			 
+		
 	@BeforeAll
 	public static void before() throws Throwable {
 		
+		configReader = new ConfigReader();
+		Properties prop;
+		
+			prop = configReader.loadConfig();
+		
+		
+		driver = DriverFactory.initializeDrivers(prop.getProperty("browser"));
+		driver=DriverFactory.getdriver();
+		
+		driver.get(prop.getProperty("url"));
+		//Constants.URL=properties.getProperty("url");
+		//Constants.user_name=properties.getProperty("USERNAME");
+		//driver.set(driver);
+		
 //		Reading browser name from Config.properties File
-		LoggerLoad.info("Loading Config file");
-		ConfigReader.loadConfig();
-		String browser = ConfigReader.getBrowserType();
+		//LoggerLoad.info("Loading Config file");
+		//ConfigReader.loadConfig();
+		//String browser = ConfigReader.getBrowserType();
 		
 		//Initializing Driver using Driver Factory
-	    driver = DriverFactory.initializeDrivers(browser);
-		LoggerLoad.info("Initializing driver for : "+browser);
+	   // driver = DriverFactory.initializeDrivers(browser);
+	   
+		//LoggerLoad.info("Initializing driver for : "+browser);
 
 	}
+
 	
 	
 	@BeforeMethod
