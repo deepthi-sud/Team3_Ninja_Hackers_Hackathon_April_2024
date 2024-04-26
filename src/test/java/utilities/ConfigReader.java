@@ -52,5 +52,4 @@ public class ConfigReader {
 				else
 					throw new RuntimeException("URL not specified in the config.properties file.");	
 	}
-	
 }

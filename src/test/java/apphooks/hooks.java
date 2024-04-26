@@ -20,9 +20,7 @@ public class hooks {
 	private static ConfigReader configReader;
 	private static Properties properties;
 	static Scenario scenario;
-
-			 
-		
+	
 	@BeforeAll
 	public static void before() throws Throwable {
 		
@@ -52,7 +50,6 @@ public class hooks {
 
 	}
 
-	
 	
 	@BeforeMethod
 	public void scenario(Scenario scenario) {

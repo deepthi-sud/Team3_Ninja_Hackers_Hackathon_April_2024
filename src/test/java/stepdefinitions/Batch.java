@@ -1,24 +1,24 @@
-package stepdefinitions;
-
-import static org.testng.Assert.assertEquals;
-
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-
-import constants.Constants;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-
-import pageObjects.BatchPage;
-import pageObjects.LoginPage;
-import utilities.DriverFactory;
-
-public class Batch {
-	WebDriver driver;
-	
-	BatchPage  batch = new BatchPage ();
-	//LoginPage login =new LoginPage();
+//package stepdefinitions;
+//
+//import static org.testng.Assert.assertEquals;
+//
+//import org.openqa.selenium.WebDriver;
+//import org.testng.Assert;
+//
+//import constants.Constants;
+//import io.cucumber.java.en.Given;
+//import io.cucumber.java.en.Then;
+//import io.cucumber.java.en.When;
+//
+//import pageObjects.BatchPage;
+//import pageObjects.LoginPage;
+//import utilities.DriverFactory;
+//
+//public class Batch {
+//	WebDriver driver;
+//	
+//	BatchPage  batch = new BatchPage ();
+//	//LoginPage login =new LoginPage();
 //	
 //	
 //	
@@ -121,7 +121,7 @@ public class Batch {
 //	    // Write code here that turns the phrase above into concrete actions
 //	    throw new io.cucumber.java.PendingException();
 //	}
-
-	
-	
-}
+//
+//	
+//	
+//}
