@@ -1,3 +1,7 @@
+package utilities;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -39,10 +43,6 @@ public class ConfigReader {
 			throw new RuntimeException("browser not specified in the testng.xml");
 	}
 
-//	public static String getBrowserType()throws Throwable {
-	public static String getExcelFilepPath() {
-	}
-
 	public static String getUrl() {
 		String URL=properties.getProperty("url");
 				if (URL != null)
@@ -50,3 +50,4 @@ public class ConfigReader {
 				else
 					throw new RuntimeException("URL not specified in the config.properties file.");	
 	}
+}
