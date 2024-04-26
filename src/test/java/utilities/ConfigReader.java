@@ -16,7 +16,6 @@ public class ConfigReader {
 			properties = new Properties();
 			properties.load(getClass().getResourceAsStream("/Config.properties"));
 			Constants.URL=properties.getProperty("url");
-
 			  try { properties.load(fis); fis.close(); } catch (IOException e) {
 			  e.printStackTrace(); }
 			 
