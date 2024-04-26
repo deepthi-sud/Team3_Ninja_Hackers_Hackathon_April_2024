@@ -28,7 +28,7 @@ public class ConfigReader {
 	}
 
 	private static String browserType=null;
-	@@ -33,13 +37,12 @@ public static void setBrowserType(String browser) {
+	public static void setBrowserType(String browser) {
 		browserType=browser;
 	}
 
@@ -41,7 +41,7 @@ public class ConfigReader {
 	}
 
 //	public static String getBrowserType()throws Throwable {
-	@@ -61,9 +64,9 @@ public static String getExcelFilepPath() {
+	public static String getExcelFilepPath() {
 	}
 
 	public static String getUrl() {
