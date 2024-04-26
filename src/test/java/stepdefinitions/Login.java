@@ -54,7 +54,21 @@ public void admin_should_recieve_page_not_found_error(int error) {
 		login.setLogin();
 		login.clickLoginBtn();
 	}
-
+	@When("Admin enter Invalid credentials and clicks login button")
+	public void admin_enter_invalid_credentials_and_clicks_login_button() {
+		login.setInvalidLogin();
+		login.clickLoginBtn();
+	}
+	@When("Admin enter value only in password and clicks login button")
+	public void admin_enter_value_only_in_password_and_clicks_login_button() {
+		login.setPasswordNoUserName();
+		login.clickLoginBtn();
+	}
+	@When("Admin enter value only in username and clicks login button")
+	public void admin_enter_value_only_in_username_and_clicks_login_button() {
+		login.setUserNameNoPassword();
+		login.clickLoginBtn();
+	}
 	@Then("Admin should land on dashboard page")
 	public void admin_should_land_on_dashboard_page() {
 		String title=login.getTitle();
@@ -142,6 +156,18 @@ public void admin_should_recieve_page_not_found_error(int error) {
 	@Then("Admin should see password in gray color")
 	public void admin_should_see_password_in_gray_color() {
 		  login.verifyPasswordTextColorAsGray();
+	}
+	@Then("Error message please check username or password")
+	public void error_message_please_check_username_or_password() {
+	  login.verifyInvalidUsernameAndPasswordError();
+	}
+	@Then("Error message please check username")
+	public void error_message_please_check_username() {
+	  login.verifyUserNameColorAsRed();
+	}
+	@Then("Error message please check password")
+	public void error_message_please_check_password() {
+	  login.verifyPasswordColorAsRed();
 	}
 }
 

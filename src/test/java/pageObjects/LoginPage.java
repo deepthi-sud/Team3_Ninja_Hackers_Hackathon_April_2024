@@ -45,6 +45,9 @@ public class LoginPage {
 	static WebElement loginPasswordLabelInput;
 	@FindBy (xpath="//*[@class='mat-card-content']")
 	static WebElement loginForm;
+	@FindBy (id="errormessage")
+	static WebElement errorInvalidCredentials;
+	
 	
 	
 	
@@ -71,7 +74,20 @@ public class LoginPage {
 		username.sendKeys(uname);
 		password.sendKeys(pwd);
 	}
-
+	public void setInvalidLogin() {
+		String	uname="bhuvee@gmail.com";
+		String pwd="InvalidPassword";
+		username.sendKeys(uname);
+		password.sendKeys(pwd);
+	}
+	public void setUserNameNoPassword() {
+		String	uname="bhuvee@gmail.com";
+		username.sendKeys(uname);
+	}
+	public void setPasswordNoUserName() {
+		String pwd="InvalidPassword";
+		password.sendKeys(pwd);
+	}
 	public void clickLoginBtn() {
 		loginBtn.click();
 
@@ -152,4 +168,24 @@ public class LoginPage {
 		assertEquals(textColor, "rgba(0, 0, 0, 0)");
 		System.out.println("Password Label color has been verified as Gray Successfully");
 	}
+	public void verifyInvalidUsernameAndPasswordError() {
+		String invalidUsernameAndPasswordError = errorInvalidCredentials.getText();
+	
+		assertEquals(invalidUsernameAndPasswordError, "Invalid username and password Please try again");
+		System.out.println("Invalid Username and Password Error verified Sucessfully as "+invalidUsernameAndPasswordError);
+	}
+	public void verifyUserNameColorAsRed() {
+		String textColor = loginLMSApplicationUserNameText.getCssValue("background-color");
+	
+		assertEquals(textColor, "rgba(0, 0, 0, 0)");
+		System.out.println("Password Label color has been verified as Red Successfully");
+	}
+	
+	public void verifyPasswordColorAsRed() {
+		String textColor = loginLMSApplicationPasswordText.getCssValue("background-color");
+	
+		assertEquals(textColor, "rgba(0, 0, 0, 0)");
+		System.out.println("Password Label color has been verified as Red Successfully");
+	}
+	
 }

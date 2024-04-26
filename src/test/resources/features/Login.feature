@@ -109,11 +109,31 @@ Feature: Validating Login Page
     When Admin gives the correct LMS portal URL
     Then Admin should see password in gray color
   
-  @loginPageValidation_TC19
-  Scenario: Validate login with valid credentials
+   @loginPageValidation_TC19
+   Scenario: Validate login with valid credentials
     Given Admin is in Home Page
     When Admin enter valid credentials and clicks login button 
     Then Admin should land on dashboard page
     
+    
+    @loginPageValidation_TC20
+    Scenario: Validate login with invalid credentials
+    Given Admin is in Home Page
+    When Admin enter Invalid credentials and clicks login button 
+    Then Error message please check username or password
       
+    
+    @loginPageValidation_TC21
+    Scenario: Validate login credentials with null username
+    Given Admin is in Home Page
+    When Admin enter value only in password and clicks login button
+    Then Error message please check username
+      
+    @loginPageValidation_TC22
+    Scenario: Validate login credentials with null password
+    Given Admin is in Home Page
+    When Admin enter value only in username and clicks login button 
+    Then Error message please check password
+      
+    
     
