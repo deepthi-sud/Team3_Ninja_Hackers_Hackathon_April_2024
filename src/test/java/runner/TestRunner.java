@@ -9,7 +9,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features="src/test/resources/features",
 glue={"stepdefinitions","apphooks"},
 plugin = {"pretty",
-"html:Reports/Cucumber-Reports/Reports.html"}
+"html:Reports/Cucumber-Reports/Reports.html"},
+tags="@loginPageValidation_TC19"
 //monochrome = true
 		)
 

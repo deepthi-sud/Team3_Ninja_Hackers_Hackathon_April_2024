@@ -74,5 +74,12 @@ public class ConfigReader {
 				else
 					throw new RuntimeException("URL not specified in the config.properties file.");	
 	}
+	public static String getInvalidUrl() {
+		String url=properties.getProperty("invalidUrl");
+				if (url != null)
+					return url;
+				else
+					throw new RuntimeException("URL not specified in the config.properties file.");	
+	}
 	
 }
