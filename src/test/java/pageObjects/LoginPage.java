@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import constants.Constants;
@@ -16,6 +17,7 @@ public class LoginPage {
 	    By username=By.id("username");
 		By password=By.id("password");
 		By loginBtn=By.xpath("//button[@type='submit']");
+		By logoutLink = By.xpath("//span[text()='Logout']");
 		
 		public void getLoginPage() {
 			driver.get(Constants.URL);
@@ -33,6 +35,15 @@ public class LoginPage {
 		public void clickLoginBtn() {
 			driver.findElement(loginBtn).click();
 
+		}
+		
+		public Boolean verifyLogin() {
+			WebElement logout = driver.findElement(logoutLink);
+			Boolean result = false;
+			if (logoutLink != null) {
+				result = true;
+			}
+			return result;
 		}
 		
 }
