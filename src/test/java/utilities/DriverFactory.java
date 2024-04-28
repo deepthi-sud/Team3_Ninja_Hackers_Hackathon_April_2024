@@ -44,10 +44,10 @@ public class DriverFactory {
 			driver = new EdgeDriver();
 
 		}
-		// Set Page load timeout
 		
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+		
+		//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		driver.manage().window().maximize();
 
 		return driver;
