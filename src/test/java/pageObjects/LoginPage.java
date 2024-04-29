@@ -2,17 +2,23 @@ package pageObjects;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import utilities.ConfigReader;
 import utilities.DriverFactory;
+import utilities.ExcelReader;
 
 public class LoginPage {
 
@@ -68,29 +74,44 @@ public class LoginPage {
 		return driver.getTitle();
 	}
 
-	public void setLogin() {
-		String	uname="sdetorganizers@gmail.com";
-		String pwd="UIHackathon@02";
+	public void setLogin() throws InvalidFormatException, IOException {
+		
+	
+		 List<Map<String, String>> excelRows=ExcelReader.getData(ConfigReader.getExcelFilepPath(),"testData");
+		 String	uname=excelRows.get(0).get("validUserName");
+		 String pwd=excelRows.get(0).get("validPassword");
+		 username.sendKeys(uname);
+		password.sendKeys(pwd);
+	}
+	public void setInvalidLogin() throws InvalidFormatException, IOException {
+		 List<Map<String, String>> excelRows=ExcelReader.getData(ConfigReader.getExcelFilepPath(),"testData");
+		 String	uname=excelRows.get(0).get("invalidUsername");
+		 String pwd=excelRows.get(0).get("invalidPassword");
+		 	
 		username.sendKeys(uname);
 		password.sendKeys(pwd);
 	}
-	public void setInvalidLogin() {
-		String	uname="bhuvee@gmail.com";
-		String pwd="InvalidPassword";
-		username.sendKeys(uname);
-		password.sendKeys(pwd);
-	}
-	public void setUserNameNoPassword() {
-		String	uname="bhuvee@gmail.com";
+	public void setUserNameNoPassword() throws InvalidFormatException, IOException {
+		List<Map<String, String>> excelRows=ExcelReader.getData(ConfigReader.getExcelFilepPath(),"testData");
+		String	uname=excelRows.get(0).get("validUserName");
 		username.sendKeys(uname);
 	}
-	public void setPasswordNoUserName() {
-		String pwd="InvalidPassword";
-		password.sendKeys(pwd);
+	public void setPasswordNoUserName() throws InvalidFormatException, IOException {
+		
+		 List<Map<String, String>> excelRows=ExcelReader.getData(ConfigReader.getExcelFilepPath(),"testData");
+		 String pwd=excelRows.get(0).get("validPassword");
+		 password.sendKeys(pwd);
 	}
 	public void clickLoginBtn() {
 		loginBtn.click();
 
+	}
+	public void keyboardClickLoginBtn() {
+		loginBtn.sendKeys(Keys.ENTER);
+	}
+	public void mouseClickLoginBtn() {
+		Actions action = new Actions(driver);
+		action.sendKeys(loginBtn).build().perform();
 	}
 	public String getTextLoginToapp() {
 		return loginLMSApplication.getText();

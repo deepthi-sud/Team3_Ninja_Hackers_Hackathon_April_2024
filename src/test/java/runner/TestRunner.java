@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 glue={"stepdefinitions","apphooks"},
 plugin = {"pretty",
 "html:Reports/Cucumber-Reports/Reports.html"},
-tags="@loginPageValidation_TC22"
+tags="@loginPageValidation_TC24"
 //monochrome = true
 		)
 

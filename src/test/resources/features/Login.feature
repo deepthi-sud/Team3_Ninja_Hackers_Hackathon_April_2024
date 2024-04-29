@@ -136,4 +136,14 @@ Feature: Validating Login Page
     Then Error message please check password
       
     
+    @loginPageValidation_TC23
+    Scenario: Validate login with valid credentials
+    Given Admin is in Home Page
+    When Admin enter valid credentials and clicks login button through keyboard
+    Then Admin should land on dashboard page
     
+    @loginPageValidation_TC24
+    Scenario: Validate login with valid credentials
+    Given Admin is in Home Page
+    When Admin enter valid credentials and clicks login button through Mouse Click
+    Then Admin should land on dashboard page

@@ -2,6 +2,10 @@ package stepdefinitions;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.IOException;
+
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -50,22 +54,22 @@ public void admin_should_recieve_page_not_found_error(int error) {
 	}
 
 	@When("Admin enter valid credentials and clicks login button")
-	public void admin_enter_valid_credentials_and_clicks_login_button() {
+	public void admin_enter_valid_credentials_and_clicks_login_button() throws InvalidFormatException, IOException {
 		login.setLogin();
 		login.clickLoginBtn();
 	}
 	@When("Admin enter Invalid credentials and clicks login button")
-	public void admin_enter_invalid_credentials_and_clicks_login_button() {
+	public void admin_enter_invalid_credentials_and_clicks_login_button() throws InvalidFormatException, IOException {
 		login.setInvalidLogin();
 		login.clickLoginBtn();
 	}
 	@When("Admin enter value only in password and clicks login button")
-	public void admin_enter_value_only_in_password_and_clicks_login_button() {
+	public void admin_enter_value_only_in_password_and_clicks_login_button() throws InvalidFormatException, IOException {
 		login.setPasswordNoUserName();
 		login.clickLoginBtn();
 	}
 	@When("Admin enter value only in username and clicks login button")
-	public void admin_enter_value_only_in_username_and_clicks_login_button() {
+	public void admin_enter_value_only_in_username_and_clicks_login_button() throws InvalidFormatException, IOException {
 		login.setUserNameNoPassword();
 		login.clickLoginBtn();
 	}
@@ -168,6 +172,16 @@ public void admin_should_recieve_page_not_found_error(int error) {
 	@Then("Error message please check password")
 	public void error_message_please_check_password() {
 	  login.verifyPasswordColorAsRed();
+	}
+	@When("Admin enter valid credentials and clicks login button through keyboard")
+	public void admin_enter_valid_credentials_and_clicks_login_button_through_keyboard() throws InvalidFormatException, IOException {
+		login.setLogin();
+		login.keyboardClickLoginBtn();
+	}
+	@When("Admin enter valid credentials and clicks login button through Mouse Click")
+	public void admin_enter_valid_credentials_and_clicks_login_button_through_mouse_click() throws InvalidFormatException, IOException {
+		login.setLogin();
+		login.mouseClickLoginBtn();
 	}
 }
 

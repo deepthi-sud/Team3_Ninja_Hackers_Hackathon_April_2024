@@ -67,6 +67,7 @@ public class ConfigReader {
 			throw new RuntimeException("Excel path not specified in the config.properties file.");
 	}
 	
+	
 	public static String getUrl() {
 		String url=properties.getProperty("url");
 				if (url != null)

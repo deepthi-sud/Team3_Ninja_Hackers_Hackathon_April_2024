@@ -18,7 +18,7 @@ public class ExcelReader {
 
 	public static int totalRow;
 
-	public List<Map<String, String>> getData(String excelFilePath, String sheetName)
+	public static List<Map<String, String>> getData(String excelFilePath, String sheetName)
 			throws InvalidFormatException, IOException {
 
 		Workbook workbook = WorkbookFactory.create(new File(excelFilePath));
@@ -27,7 +27,7 @@ public class ExcelReader {
 		return readSheet(sheet);
 	}
 
-	private List<Map<String, String>> readSheet(Sheet sheet) {
+	private static List<Map<String, String>> readSheet(Sheet sheet) {
  
 		Row row;
 		Cell cell;
