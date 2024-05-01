@@ -16,53 +16,53 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelReader {
 
-	public static int totalRow;
+    public static int totalRow;
 
-	public List<Map<String, String>> getData(String excelFilePath, String sheetName)
-			throws InvalidFormatException, IOException {
+    public static List<Map<String, String>> getData(String excelFilePath, String sheetName)
+            throws InvalidFormatException, IOException {
 
-		Workbook workbook = WorkbookFactory.create(new File(excelFilePath));
-		Sheet sheet = workbook.getSheet(sheetName);
-		workbook.close();
-		return readSheet(sheet);
-	}
+        Workbook workbook = WorkbookFactory.create(new File(excelFilePath));
+        Sheet sheet = workbook.getSheet(sheetName);
+        workbook.close();
+        return readSheet(sheet);
+    }
 
-	private List<Map<String, String>> readSheet(Sheet sheet) {
- 
-		Row row;
-		Cell cell;
+    private static List<Map<String, String>> readSheet(Sheet sheet) {
 
-		totalRow = sheet.getLastRowNum();
+        Row row;
 
-		List<Map<String, String>> excelRows = new ArrayList<Map<String, String>>();
+        totalRow = sheet.getLastRowNum();
 
-		for (int currentRow = 1; currentRow <= totalRow; currentRow++) {
+        List<Map<String, String>> excelRows = new ArrayList<>();
 
-			row = sheet.getRow(currentRow);
+        for (int currentRow = 1; currentRow <= totalRow; currentRow++) {
 
-			int totalColumn = row.getLastCellNum();
+            row = sheet.getRow(currentRow);
 
-			LinkedHashMap<String, String> columnMapdata = new LinkedHashMap<String, String>();
+            if (row != null) {
+                int totalColumn = row.getLastCellNum();
 
-			for (int currentColumn = 0; currentColumn < totalColumn; currentColumn++) {
+                LinkedHashMap<String, String> columnMapdata = new LinkedHashMap<>();
 
-				cell = row.getCell(currentColumn);
+                for (int currentColumn = 0; currentColumn < totalColumn; currentColumn++) {
 
-				String columnHeaderName = sheet.getRow(sheet.getFirstRowNum()).getCell(currentColumn)
-						.getStringCellValue();
+                    Cell cell = row.getCell(currentColumn);
 
-				columnMapdata.put(columnHeaderName, cell.getStringCellValue());
-			}
+                    if (cell != null) {
+                        String columnHeaderName = sheet.getRow(sheet.getFirstRowNum()).getCell(currentColumn)
+                                .getStringCellValue();
 
-			excelRows.add(columnMapdata);
-		}
+                        String cellValue = cell.getStringCellValue();
+                        columnMapdata.put(columnHeaderName, cellValue);
+                    }
+                }
+                excelRows.add(columnMapdata);
+            }
+        }
+        return excelRows;
+    }
 
-		return excelRows;
-	}
-
-	public int countRow() {
-
-		return totalRow;
-	}
-
+    public int countRow() {
+        return totalRow;
+    }
 }

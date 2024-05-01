@@ -22,6 +22,7 @@ public class ConfigReader {
 			Constants.URL=properties.getProperty("url");
 			Constants.user_name=properties.getProperty("username");
 			Constants.pass_word=properties.getProperty("password");
+			Constants.excelpath=properties.getProperty("excelpath");
 			  try { properties.load(fis); fis.close(); } catch (IOException e) {
 			  e.printStackTrace(); }
 			 
@@ -45,11 +46,16 @@ public class ConfigReader {
 			throw new RuntimeException("browser not specified in the testng.xml");
 	}
 
-	public static String getUrl() {
-		String URL=properties.getProperty("url");
-				if (URL != null)
-					return URL;
-				else
-					throw new RuntimeException("URL not specified in the config.properties file.");	
-	}
+//	public static String getUrl() {
+//		String URL=properties.getProperty("url");
+//				if (URL != null)
+//					return URL;
+//				else
+//					throw new RuntimeException("URL not specified in the config.properties file.");	
+//	}
+//
+//	public static String getExcelFilepPath() {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
 }
