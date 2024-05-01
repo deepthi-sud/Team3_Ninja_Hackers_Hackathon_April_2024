@@ -1,10 +1,10 @@
 
 @Validation-page
 Feature: Navigation Validation from Manage Program to other Pages
-  Background: User is Logged In
-	  Given I navigate to the login page
-	  When I submit username and password
-  	Then I should be logged in 
+  #Background: User is Logged In
+#	  Given I navigate to the login page
+#	  When I submit username and password
+  #	Then I should be logged in 
 
   @PageValidation-01
   Scenario: Batch link on navigation bar

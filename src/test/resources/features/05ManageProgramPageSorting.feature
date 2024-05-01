@@ -2,10 +2,10 @@
 @ManageProgramFeature
 Feature: Manage Program Page Sorting(Data Ordering) Validation
 
-Background: User is Logged In
-	Given I navigate to the login page
-	When I submit username and password
-	Then I should be logged in 
+#Background: User is Logged In
+#	Given I navigate to the login page
+#	When I submit username and password
+#	Then I should be logged in 
 
   @sorting_01
   Scenario: Validates Descending Sorting(data ordering) on the Program Data table
