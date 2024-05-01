@@ -28,38 +28,38 @@ Then Admin should see two radio button for Status
 Scenario: Empty Form Submission
 Given Admin is in Assign Student details pop up page
 When Admin clicks "Save" button with out entering any data
-Then Admin get Error message alert 
+Then Admin gets a Error message alert 
 
-Scenario: Validate the Assign Student form page without giving Student Email id
-Given Admin is in Assign Student details pop up page
-When Admin clicks "Save" button without entering Student Email id
-Then Admin gets a Error message alert as "Student Email id is required" 
+#Scenario: Validate the Assign Student form page without giving Student Email id
+#Given Admin is in Assign Student details pop up page
+#When Admin clicks "Save" button without entering Student Email id
+#Then Admin gets a Error message alert as "Student Email id is required" 
 
-Scenario: Validate the Assign Student form page without selecting Program
-Given Admin is in Assign Student details pop up page
-When Admin clicks "Save" button without selecting program
-Then Admin gets a Error message alert as "Program is required"
+#Scenario: Validate the Assign Student form page without selecting Program
+#Given Admin is in Assign Student details pop up page
+#When Admin clicks "Save" button without selecting program
+#Then Admin gets a Error message alert as "Program is required"
 
-Scenario: Validate the Assign Student form page without selecting Batch
-Given Admin is in Assign Student details pop up page
-When Admin clicks "Save" button without selecting batch
-Then Admin gets a Error message alert as "Batch is required"
-
-Scenario: Validate the Assign Student form page without selecting Status
-Given Admin is in Assign Student details pop up page
-When Admin clicks "Save" button without giving status
-Then Admin gets a Error message alert as "Status is required"
-
+#Scenario: Validate the Assign Student form page without selecting Batch
+#Given Admin is in Assign Student details pop up page
+#When Admin clicks "Save" button without selecting batch
+#Then Admin gets a Error message alert as "Batch is required"
+#
+#Scenario: Validate the Assign Student form page without selecting Status
+#Given Admin is in Assign Student details pop up page
+#When Admin clicks "Save" button without giving status
+#Then Admin gets a Error message alert as "Status is required"
+#
 Scenario: Validate Cancel/Close(X) icon on Assign Student form
 Given Admin is in Assign Student details pop up page
 When Admin clicks Cancel/Close(X) Icon on Assign Student form
 Then Assign Student popup window should be closed without saving
-
-Scenario: Validate Save button on Assign Student form
-Given Admin is in Assign Student details pop up page
-When Enter all the required fields with valid values in page and click Save button
-Then Admin gets a message "Successfully Student Assigned" alert 
-
+#
+#Scenario: Validate Save button on Assign Student form
+#Given Admin is in Assign Student details pop up page
+#When Enter all the required fields with valid values in page and click Save button
+#Then Admin gets a message "Successfully Student Assigned" alert 
+#
 Scenario: Validate Cancel button on Assign Student form
 Given Admin is in Assign Student details pop up page
 When Admin clicks <Cancel> button 

@@ -2301,3 +2301,568 @@ Save
 2024-05-01 14:14:07 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
 2024-05-01 14:14:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
 2024-05-01 14:14:08 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:18:05 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:18:12 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:18:12 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:13 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:18:13 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:14 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:18:14 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:15 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:18:15 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:16 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:18:16 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:17 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:18:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:18 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:18:18 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:19 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:18:19 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:20 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:18:20 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:21 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:18:21 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:22 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:18:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:23 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:18:23 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:18:23 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:23:18 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:23:24 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:23:46 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:23:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:23:53 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:23:54 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:23:54 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:24:09 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:24:15 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:24:16 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:24:16 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:24:17 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:24:18 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:24:18 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:24:18 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-01 15:24:18 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:24:34 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:24:40 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:24:40 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:24:40 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:24:41 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:24:42 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:24:42 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:24:42 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-01 15:24:43 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:24:44 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:24:44 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 15:24:44 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:25:17 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:25:23 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:23 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:25:24 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:25:25 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:25 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:25:25 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:25:26 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-01 15:25:27 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:27 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:25:27 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 15:25:28 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:29 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:25:29 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 15:25:29 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:25:44 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:25:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:50 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:25:51 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:25:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:52 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:25:52 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:25:52 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-01 15:25:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:54 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:25:54 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 15:25:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:55 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:25:56 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 15:25:57 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:25:57 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:25:57 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 15:25:58 [main] INFO  utilities.LoggerLoad - Admin gets error message :User Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 15:25:58 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:26:35 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:26:42 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:26:42 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:26:42 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:26:44 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:26:44 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:26:44 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:26:44 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-01 15:26:46 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:26:46 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:26:46 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 15:26:47 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:26:47 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:26:48 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 15:26:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:26:49 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:26:49 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 15:26:50 [main] INFO  utilities.LoggerLoad - Admin gets error message :User Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 15:26:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:26:51 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:26:51 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:28:04 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:28:10 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:28:10 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:28:10 [main] INFO  utilities.LoggerLoad - Admin clicks Save button without entering Student Email id
+2024-05-01 15:28:12 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:28:12 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:29:15 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:29:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:29:22 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:29:22 [main] INFO  utilities.LoggerLoad - Admin clicks Save button without entering Student Email id
+2024-05-01 15:29:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:29:25 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:29:25 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:29:37 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:29:38 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:29:39 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:29:39 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:29:40 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:29:40 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:29:41 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:29:41 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:32:10 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:32:16 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:32:16 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:32:29 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:32:29 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:38:18 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:38:25 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:38:25 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:38:25 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 15:38:25 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 15:38:25 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:38:47 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:38:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:38:54 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:38:54 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 15:38:54 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 15:38:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:38:55 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:38:56 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:39:54 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:40:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:40:00 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:40:01 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:40:45 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:40:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:40:52 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:40:52 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:40:53 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:41:25 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:41:31 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:41:31 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:41:31 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:41:32 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:41:33 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:41:33 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:41:33 [main] INFO  utilities.LoggerLoad - Fileds are displayed
+2024-05-01 15:41:34 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:41:35 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:41:35 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 15:41:36 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:41:36 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:41:37 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 15:41:37 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:42:16 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:42:22 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:42:23 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:42:23 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:42:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:42:24 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:42:25 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:42:25 [main] INFO  utilities.LoggerLoad - Fileds are displayed
+2024-05-01 15:42:26 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:42:26 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:42:27 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 15:42:28 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:42:28 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:42:28 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 15:42:29 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:42:30 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:42:30 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 15:42:31 [main] INFO  utilities.LoggerLoad - Admin gets error message :Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 15:42:31 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:43:44 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:43:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:43:50 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:43:50 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 15:43:51 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 15:43:51 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:44:37 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:44:43 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:44:43 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:44:43 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 15:44:43 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 15:44:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:44:45 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:44:45 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:47:10 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:47:15 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:47:16 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:47:16 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 15:47:16 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 15:47:17 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:47:18 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:47:18 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:48:50 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:48:57 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:48:57 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:48:57 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 15:48:58 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 15:48:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:48:59 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:48:59 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 15:48:59 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:51:20 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:51:26 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:27 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:28 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:28 [main] INFO  utilities.LoggerLoad - Admin checks if Manage program is header
+2024-05-01 15:51:28 [main] INFO  utilities.LoggerLoad - headerManage Program
+2024-05-01 15:51:29 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:30 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:31 [main] INFO  utilities.LoggerLoad - Admin check if link is broken
+2024-05-01 15:51:32 [main] INFO  utilities.LoggerLoad - Link is not broken and response is:200
+2024-05-01 15:51:33 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:33 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 15:51:33 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 15:51:34 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:35 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-01 15:51:35 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:51:36 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:36 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling in navigation bar text
+2024-05-01 15:51:37 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:37 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 15:51:37 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 15:51:38 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:38 [main] INFO  utilities.LoggerLoad - Admin checks if navigation bar text on the top right side
+2024-05-01 15:51:39 [main] INFO  utilities.LoggerLoad - Navigationbar is top right
+2024-05-01 15:51:39 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:41 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:44 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:45 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:45 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:45 [main] INFO  utilities.LoggerLoad - LMS
+2024-05-01 15:51:45 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:46 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:48 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 15:51:48 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/
+2024-05-01 15:51:48 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:49 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:49 [main] INFO  utilities.LoggerLoad - Showing 0 to 0 of 0 entries
+2024-05-01 15:51:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:51:49 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:50 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:50 [main] INFO  utilities.LoggerLoad - In total there are 0 programs.
+2024-05-01 15:51:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:51:50 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:51 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:51 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:52 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:52 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:52 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:52 [main] INFO  utilities.LoggerLoad - In total there are 0 programs.
+2024-05-01 15:51:53 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:53 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:55 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:55 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:55 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:55 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:51:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:56 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:56 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:51:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:58 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:51:58 [main] INFO  utilities.LoggerLoad - 
+2024-05-01 15:51:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:51:59 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:52:01 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 15:52:01 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:52:02 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:52:04 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 15:52:04 [main] INFO  utilities.LoggerLoad - Name
+*
+2024-05-01 15:52:04 [main] INFO  utilities.LoggerLoad - Description
+*
+2024-05-01 15:52:05 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:52:05 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:52:07 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 15:52:08 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:52:08 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:52:10 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 15:52:23 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:52:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:52:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:52:25 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:52:26 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:52:26 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 15:52:26 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:37 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:39 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:52:39 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:52:39 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:52:40 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:40 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:41 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:41 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:42 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:42 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:43 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:44 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:44 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:46 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:46 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:47 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:55 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:52:55 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:52:55 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:52:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:52:58 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:52:58 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:52:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:52:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:00 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:00 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:02 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:02 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:03 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:05 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:05 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:05 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:05 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:07 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:07 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:07 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:10 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:10 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:10 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:10 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:12 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:12 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:12 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:12 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:15 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:15 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:15 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:15 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:17 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:17 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:17 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:19 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:19 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:19 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:19 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:22 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:22 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:22 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:24 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:24 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:27 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:27 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:27 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:27 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:29 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:29 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:29 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:29 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:32 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:32 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:32 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:32 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:34 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:34 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:34 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:34 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:36 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:36 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:36 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:37 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:39 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:39 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:39 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:39 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:41 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:41 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:41 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:41 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:44 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-01 15:53:44 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-01 15:53:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 15:53:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:46 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:53:46 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:53:47 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:48 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:53:48 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:53:48 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-01 15:53:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:49 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:53:50 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 15:53:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:51 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:53:52 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 15:53:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:53 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:53:53 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 15:53:54 [main] INFO  utilities.LoggerLoad - Admin gets error message :User Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 15:53:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:55 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:53:55 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 15:53:56 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 15:53:57 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:57 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 15:53:57 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 15:53:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:53:59 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:53:59 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 15:54:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:54:01 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:54:01 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 15:54:01 [main] INFO  utilities.LoggerLoad - Fileds are displayed
+2024-05-01 15:54:02 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:54:02 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:54:03 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 15:54:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:54:04 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 15:54:04 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 15:54:05 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:54:06 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:54:06 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 15:54:07 [main] INFO  utilities.LoggerLoad - Admin gets error message :Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 15:54:08 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:54:08 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:54:08 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 15:54:08 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 15:54:09 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 15:54:10 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 15:54:10 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 15:54:10 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 15:57:51 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 15:57:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:57:57 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 15:57:57 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 15:57:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 15:57:59 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-01 15:57:59 [main] INFO  utilities.LoggerLoad - Title is top left
+2024-05-01 15:57:59 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 16:02:42 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 16:02:48 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 16:02:48 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 16:02:48 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 16:02:49 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 16:02:50 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-01 16:02:50 [main] INFO  utilities.LoggerLoad - Title is top left
+2024-05-01 16:02:50 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 16:09:59 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 16:10:05 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:10:05 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:10:05 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 16:10:06 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:10:07 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:10:07 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 16:10:07 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-01 16:10:08 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:10:09 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:10:09 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 16:10:10 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:10:10 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:10:11 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 16:10:12 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:10:12 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 16:10:12 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 16:10:13 [main] INFO  utilities.LoggerLoad - Admin gets error message :User Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 16:10:13 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:10:14 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 16:10:14 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 16:10:14 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 16:10:15 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:10:15 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 16:10:16 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 16:10:16 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 16:11:56 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 16:12:02 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:12:03 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:12:03 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 16:12:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:12:04 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:12:05 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 16:12:05 [main] INFO  utilities.LoggerLoad - Fileds are displayed
+2024-05-01 16:12:06 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:12:06 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:12:06 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 16:12:07 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:12:08 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:12:08 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 16:12:09 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:12:09 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 16:12:09 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 16:12:10 [main] INFO  utilities.LoggerLoad - Admin gets error message :Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 16:12:11 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:12:11 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 16:12:11 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 16:12:12 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 16:12:13 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:12:13 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 16:12:13 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 16:12:14 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 16:13:13 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 16:13:20 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:13:21 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:13:21 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 16:13:22 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:13:23 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:13:23 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 16:13:23 [main] INFO  utilities.LoggerLoad - Fileds are displayed
+2024-05-01 16:13:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:13:25 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:13:25 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 16:13:26 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:13:26 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 16:13:27 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 16:13:27 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:13:28 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 16:13:28 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 16:13:28 [main] INFO  utilities.LoggerLoad - Admin gets error message :Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 16:13:29 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:13:29 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 16:13:30 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 16:13:30 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 16:13:31 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 16:13:31 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 16:13:31 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 16:13:32 [main] INFO  utilities.LoggerLoad - Closing Driver

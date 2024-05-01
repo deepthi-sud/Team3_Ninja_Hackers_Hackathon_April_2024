@@ -67,8 +67,10 @@ public class DashboardPage {
 
 	//Checking if LMS title is top left
 	public boolean isTitleLocLeft() {
-		int getX = driver.findElement(titleElement).getLocation().getX();
-		int getY=driver.findElement(titleElement).getLocation().getY();
+		WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement title=wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(titleElement)));
+		int getX = title.getLocation().getX();
+		int getY=title.getLocation().getY();
 		if (getX<20 && getY<20)
 			return true;
 		else

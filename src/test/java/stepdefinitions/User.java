@@ -24,10 +24,10 @@ public class User {
 	    
 //	}
 
-	@When("Admin clicks {string} from navigation bar")
-	public void admin_clicks_from_navigation_bar(String string) {
-		userPage.getMainPage();
-	}
+//	@When("Admin clicks {string} from navigation bar")
+//	public void admin_clicks_from_navigation_bar(String string) {
+//		userPage.getMainPage();
+//	}
 
 	@Then("Admin should see the {string} in the URL")
 	public void admin_should_see_the_in_the_url(String string) throws InterruptedException {

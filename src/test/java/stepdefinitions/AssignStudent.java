@@ -21,11 +21,11 @@ public class AssignStudent {
 		obj.login();
 	}
 
-//	@Then("Admin clicks {string} from navigation bar")
-//	public void admin_clicks_from_navigation_bar(String string) {
-//		LoggerLoad.info("Admin clicks User link from navigation bar");
-//		assertEquals(obj.isUserClicked(string),true);
-//	}
+	@Then("Admin clicks {string} from navigation bar")
+	public void admin_clicks_from_navigation_bar(String string) {
+		LoggerLoad.info("Admin clicks User link from navigation bar");
+		assertEquals(obj.isUserClicked(string),true);
+	}
 
 	@Given("Admin is in manage user page")
 	public void admin_is_in_manage_user_page() {
@@ -92,11 +92,11 @@ public class AssignStudent {
 		LoggerLoad.info("Admin gets error message :"+msg);
 	} 
 
-//	@When("Admin clicks {string} button without entering Student Email id")
-//	public void admin_clicks_button_without_entering_student_email_id(String string) throws InvalidFormatException, IOException {
-//		LoggerLoad.info("Admin clicks Save button without entering Student Email id");
-//		obj.setWithoutEmail();
-//	}
+	@When("Admin clicks {string} button without entering Student Email id")
+	public void admin_clicks_button_without_entering_student_email_id(String string) throws InvalidFormatException, IOException {
+		LoggerLoad.info("Admin clicks Save button without entering Student Email id");
+		obj.setWithoutEmail();
+	}
 	
 	@Then("Admin gets a Error message alert as {string}")
 	public void admin_gets_a_error_message_alert_as(String string) {
@@ -144,13 +144,9 @@ public class AssignStudent {
 	    LoggerLoad.info("Student assigned successfully");
 	}
 	
-	@When("Admin clicks <Cancel> button")
-	public void admin_clicks_cancel_button() {
-	  obj.clickCancelBtn();
-	}
 	
 	@Then("Admin can see the Assign Student popup disappears without assigning")
-	public void admin_can_see_the_assign_student_popup_disappears_without_assigning() {
+	public void admin_can_see_the_assign_student_popup_disappears_without_assigning()  {
 	assertTrue(obj.isPopupClosed());
 	}
 
