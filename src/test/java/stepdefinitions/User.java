@@ -235,5 +235,77 @@ public void the_newly_added_user_should_be_present_in_the_data_table_in_manage_u
 }
 
 
+@When("Admin clicks on the edit icon")
+public void admin_clicks_on_the_edit_icon() throws InterruptedException {
+userPage.searchInput("testa");
+   userPage.editIcon();
+}
+
+@Then("A new pop up with User details appears")
+public void a_new_pop_up_with_user_details_appears() throws InterruptedException {
+	//userPage.searchInput("Mary");
+    userPage.editUserDetailsPage();
+}
+
+@Given("Admin is on editUser details pop up")
+public void admin_is_on_edituser_details_pop_up() throws InterruptedException {
+	//userPage.searchInput("Sam");
+	//userPage.editIcon();
+}
+
+@When("Update the fields with valid data and click submit")
+public void update_the_fields_with_valid_data_and_click_submit() throws InterruptedException {
+	userPage.editIcon();
+	userPage.fillUserInfoForEdit();
+}
+
+@Then("Admin gets message {string} and see the updated values in data table")
+public void admin_gets_message_and_see_the_updated_values_in_data_table(String string) {
+    
+}
+
+@When("Update the fields with invalid values and click submit")
+public void update_the_fields_with_invalid_values_and_click_submit() throws InterruptedException {
+	userPage.editIcon();
+	userPage.fillInvalidUserInfoForEdit();
+}
+
+@Then("Admin should get Error message")
+public void admin_should_get_error_message() {
+    
+}
+
+
+@When("Update the mandatory fields with valid values and click submit")
+public void update_the_mandatory_fields_with_valid_values_and_click_submit() throws InterruptedException {
+//	userPage.editIcon();
+	userPage.fillMandatoryUserInfoForEdit();
+}
+
+@When("Update the optional fields with valid values and click submit")
+public void update_the_optional_fields_with_valid_values_and_click_submit() throws InterruptedException {
+    // Write code here that turns the phrase above into concrete actions
+	userPage.fillOptionalUserInfoForEdit();
+}
+
+
+@When("Admin enters only numbers or special char in the text fields")
+public void admin_enters_only_numbers_or_special_char_in_the_text_fields() throws InterruptedException {
+	userPage.fillNumbersNSpecialUserInfoForEdit();
+}
+
+@When("Admin clicks Cancel button on edit popup")
+public void admin_clicks_cancel_button_on_edit_popup() throws InterruptedException {
+	userPage.clickCancelButtonOnEdit();
+}
+
+@Then("Admin can see the User details popup disappears and can see nothing changed for particular User")
+public void admin_can_see_the_user_details_popup_disappears_and_can_see_nothing_changed_for_particular_user() {
+    
+}
+
+
+
+
 
 }

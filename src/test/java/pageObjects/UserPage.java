@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 
@@ -43,7 +44,7 @@ public class UserPage extends LoginPage {
 	By search = By.xpath("//input[@class='p-inputtext p-component']");
 	By addnewuser = By.xpath("//button[@id='new']");
 	By userdetailspage = By.xpath("//span[contains(text(),'User Details')]");
-
+    
 	public String getHeader() throws InterruptedException {
 		// driver.wait();
 		return driver.findElement(header).getText();
@@ -122,8 +123,9 @@ public class UserPage extends LoginPage {
 	}
 
 	public void searchInput(String searchString) throws InterruptedException {
-		// driver.navigate().refresh();
+		Thread.sleep(3000);
 		driver.findElement(search).sendKeys(searchString);
+		Thread.sleep(3000);
 	}
 
 	public void validateInput(String validateString) throws InterruptedException {
@@ -161,9 +163,21 @@ public class UserPage extends LoginPage {
 		Assert.assertEquals(searchString, findResult);
 		// Assert.assertTrue(driver.getPageSource().contains("First name"));
 		driver.findElement(
-				By.xpath("//body/app-root[1]/app-user[1]/div[1]/p-dialog[1]/div[1]/div[1]/div[1]/div[1]/button[1]"))
+				By.xpath("//span[contains(text(),'Cancel')]"))
 				.click();
 		Thread.sleep(1000);
+	}
+	
+	public void editUserDetailsPage() throws InterruptedException {
+		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(editButton).click().build().perform();
+		String searchString = "User Details";
+		String findResult = driver.findElement(By.xpath("//span[contains(text(),'User Details')]")).getText();
+		Assert.assertEquals(searchString, findResult);
+		driver.findElement(
+				By.xpath("//span[contains(text(),'Cancel')]"))
+				.click();
 	}
 
 	public void userDetailsVerificationPage() throws InterruptedException {
@@ -345,5 +359,90 @@ public class UserPage extends LoginPage {
 	public String generatePhoneNumber() {
 		String number = String.valueOf((long) (Math.random() * 100000 + 3333300000L));
 		return number;
+	}
+	
+	public void editIcon() {
+		driver.findElement(editIcon).click();
+	}
+
+	public void fillUserInfoForEdit() throws InterruptedException {
+		Thread.sleep(3000);
+		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(editButton).click().build().perform();
+		driver.findElement(By.cssSelector("input[data-placeholder='Middle name']")).sendKeys("allenqqqs");
+		driver.findElement(By.cssSelector("input[data-placeholder='Email address']")).sendKeys("mary.mary@gmail.com");
+		driver.findElement(By.cssSelector("input[data-placeholder='User Comments']")).sendKeys("not applicable");
+		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
+		submitButton.click();
+	}
+
+	public void fillInvalidUserInfoForEdit() throws InterruptedException {
+		Thread.sleep(3000);
+		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(editButton).click().build().perform();
+		driver.findElement(By.cssSelector("input[data-placeholder='Middle name']")).sendKeys("1234");
+		driver.findElement(By.cssSelector("input[data-placeholder='Phone no']")).sendKeys("abcdefgh");
+		driver.findElement(By.cssSelector("input[data-placeholder='LinkedIn Url']"))
+		.sendKeys("https://www.link.com/in/steve-creams-835641/");
+		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
+		submitButton.click();
+		
+	}
+
+	public void fillMandatoryUserInfoForEdit() throws InterruptedException {
+		Thread.sleep(3000);
+		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(editButton).click().build().perform();
+		driver.findElement(By.cssSelector("input[data-placeholder='First name']")).clear();
+		driver.findElement(By.cssSelector("input[data-placeholder='First name']")).sendKeys("testAMandat");
+		driver.findElement(By.cssSelector("input[data-placeholder='Middle name']")).sendKeys("allenqqqs");
+		driver.findElement(By.cssSelector("input[data-placeholder='Email address']")).sendKeys("mary.mary@gmail.com");
+		driver.findElement(By.cssSelector("input[data-placeholder='User Comments']")).sendKeys("not applicable");
+		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
+		submitButton.click();
+	}
+
+	public void fillOptionalUserInfoForEdit() throws InterruptedException {
+		Thread.sleep(3000);
+		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(editButton).click().build().perform();
+		driver.findElement(By.cssSelector("input[data-placeholder='First name']")).clear();
+		driver.findElement(By.cssSelector("input[data-placeholder='First name']")).sendKeys("testAOptional");
+		driver.findElement(By.cssSelector("input[data-placeholder='Middle name']")).sendKeys("allenqqqs");
+		driver.findElement(By.cssSelector("input[data-placeholder='Email address']")).sendKeys("dominos.mary@gmail.com");
+		driver.findElement(By.cssSelector("input[data-placeholder='User Comments']")).sendKeys("not applicable");
+		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
+		submitButton.click();
+		
+	}
+
+	public void fillNumbersNSpecialUserInfoForEdit() throws InterruptedException {
+		Thread.sleep(3000);
+		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(editButton).click().build().perform();
+		driver.findElement(By.cssSelector("input[data-placeholder='First name']")).sendKeys("1234");
+		driver.findElement(By.cssSelector("input[data-placeholder='Middle name']")).sendKeys("56777");
+		driver.findElement(By.cssSelector("input[data-placeholder='Last name']")).sendKeys("9999@@@@");
+		driver.findElement(By.cssSelector("input[data-placeholder='Email address']")).sendKeys("dominos.mary@gmail.com");
+		driver.findElement(By.cssSelector("input[data-placeholder='User Comments']")).sendKeys("not applicable");
+		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
+		submitButton.click();
+		
+	}
+
+	public void clickCancelButtonOnEdit() throws InterruptedException {
+		// TODO Auto-generated method stub
+		Thread.sleep(3000);
+		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(editButton).click().build().perform();
+		driver.findElement(
+				By.xpath("//span[contains(text(),'Cancel')]"))
+				.click();
 	}
 }
