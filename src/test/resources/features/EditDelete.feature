@@ -1,0 +1,64 @@
+Feature: Delete Batch
+
+Background: 
+Given Admin logged into LMS portal
+When Admin clicks on Batch from navigation bar
+Then Admin is on Manage Batch Page
+
+Scenario: Validate row level delete icon
+Given The delete icon on row level in data table is enabled
+When Admin clicks the delete icon
+Then Alert appears with yes and No option
+
+Scenario: Validate accept alert
+Given Admin is on Manage Batch Page with alert  
+When Admin  clicks on yes option
+Then Batch deleted alert pops and batch is no more available in data table
+
+Scenario: Validate reject alert
+Given Admin is on Manage Batch Page
+When Admin clicks the delete icon and  click No option
+Then Batch is still listed in data table
+
+Scenario: Validate the delete icon below the header 
+Given Admin is on Manage Batch Page
+When None of the checkboxes in data table are selected
+Then The delete icon under the "Manage Batch" header should be disabled
+@delete5
+Scenario: Check for single row delete
+Given  Admin is in Manage Batch Page
+When Admin selects one of the checkbox and  delete icon below "Manage Batch" header
+Then The respective row in the data table is deleted
+
+Scenario: Check for multi row delete
+Given Admin is in Manage Batch Page 
+When  Admin selects Two or more checkboxes row and Click delete icon below "Manage Batch" header
+Then The respective row in the data table is deleted
+
+
+@EDIT
+
+Scenario: Validate row level edit icon
+Given Admin is on Manage Page with Edit Icon enabled on row level in datatable
+When Admin clicks the edit icon for "Team3 Batch"
+Then A new pop up with Batch details appears
+
+Scenario: Check if the fields are updated
+Given Admin is on manage batch page with batch details popup
+When Admin Update the fields with valid values and click save
+Then The updated batch details should appear on the data table
+
+Scenario: Check if the update throws error with invalid valued
+Given Admin is with batch popup details 
+When Admin Update the fields with invalid values and click save
+Then Error message should EDIT appear
+
+Scenario: Check if you get error message when mandatory fields are erased
+Given Admin is on Manage Batch Page
+When Admin clicks edit icon and Erase data from mandatory field
+Then Error message should EDIT appear
+
+Scenario: Check if description field is optional in update
+Given Admin is on Manage Batch Page
+When Admin click edit Icon and then Check if description field is optional in update
+
