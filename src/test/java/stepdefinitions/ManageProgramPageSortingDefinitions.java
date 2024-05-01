@@ -2,8 +2,10 @@ package stepdefinitions;
 
 import static org.junit.Assert.assertEquals;
 
+import java.io.IOException;
 import java.util.List;
 
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
@@ -25,7 +27,7 @@ public class ManageProgramPageSortingDefinitions {
 	}
 
 	@When("I submit username and password")
-	public void i_submit_username_and_password() {
+	public void i_submit_username_and_password() throws InvalidFormatException, IOException {
 		loginPage.setLogin();
 		loginPage.clickLoginBtn();
 	}

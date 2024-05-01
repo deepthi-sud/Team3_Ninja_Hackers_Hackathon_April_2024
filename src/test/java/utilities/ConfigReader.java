@@ -45,6 +45,31 @@ public class ConfigReader {
 		else
 			throw new RuntimeException("browser not specified in the testng.xml");
 	}
+	public static String getExcelFilepPath() {
+		String path=properties.getProperty("excelpath");
+	//	LoggerLoad.info("Get property BrowserType");
+		if (path != null)
+			return path;
+		else
+			throw new RuntimeException("Excel path not specified in the config.properties file.");
+	}
+	
+	
+	public static String getUrl() {
+		String url=properties.getProperty("url");
+				if (url != null)
+					return url;
+				else
+					throw new RuntimeException("URL not specified in the config.properties file.");	
+	}
+	public static String getInvalidUrl() {
+		String url=properties.getProperty("invalidUrl");
+				if (url != null)
+					return url;
+				else
+					throw new RuntimeException("URL not specified in the config.properties file.");	
+	}
+	
 
 //	public static String getUrl() {
 //		String URL=properties.getProperty("url");
