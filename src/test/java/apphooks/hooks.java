@@ -75,7 +75,7 @@ public class hooks {
 	public static void after() {
 		
 		//LoggerLoad.info("Closing Driver");
-	    DriverFactory.closeallDriver();
+	    //DriverFactory.closeallDriver();
 	}
 	
 }
