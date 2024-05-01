@@ -22,10 +22,10 @@ public class AddProgram_SD {
 		
 	}
 
-	@When("Admin clicks {string} button")
-	public void admin_clicks_button(String string) {
-	    program.doClick();
-	}
+//	@When("Admin clicks {string} button")
+//	public void admin_clicks_button(String string) {
+//	    program.doClick();
+//	}
 	@Then("Admin is on {string} Popup window")
 	public void admin_is_on_popup_window(String string) throws InterruptedException {
 		String txt = program.getPopup();
@@ -69,19 +69,19 @@ public class AddProgram_SD {
 	           program.doSave();        	           
 	}
 
-	@Then("Admin gets a Error message alert")
-	public void admin_gets_a_error_message_alert() {
-	    String nameerr = program.getNameErr();
-	    LoggerLoad.info(nameerr);
-	    Assert.assertEquals( nameerr, "Program name is required.");
-	    String deserr = program.getDesErr();
-	    LoggerLoad.info(deserr);
-	    Assert.assertEquals( deserr, "Description is required.");
-	    String staerr = program.getStaErr();
-	    LoggerLoad.info(staerr);
-	    Assert.assertEquals( staerr, "Status is required.");
-	    program.doCancel();
-	}
+//	@Then("Admin gets a Error message alert")
+//	public void admin_gets_a_error_message_alert() {
+//	    String nameerr = program.getNameErr();
+//	    LoggerLoad.info(nameerr);
+//	    Assert.assertEquals( nameerr, "Program name is required.");
+//	    String deserr = program.getDesErr();
+//	    LoggerLoad.info(deserr);
+//	    Assert.assertEquals( deserr, "Description is required.");
+//	    String staerr = program.getStaErr();
+//	    LoggerLoad.info(staerr);
+//	    Assert.assertEquals( staerr, "Status is required.");
+//	    program.doCancel();
+//	}
 	@When("Admin enters only<Program Name> in text box and clicks Save button")
 	public void admin_enters_only_program_name_in_text_box_and_clicks_save_button() throws InterruptedException {
 		

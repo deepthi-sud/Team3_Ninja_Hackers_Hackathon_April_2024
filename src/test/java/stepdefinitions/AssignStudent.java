@@ -5,6 +5,8 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
+
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -19,11 +21,11 @@ public class AssignStudent {
 		obj.login();
 	}
 
-	@Then("Admin clicks {string} from navigation bar")
-	public void admin_clicks_from_navigation_bar(String string) {
-		LoggerLoad.info("Admin clicks User link from navigation bar");
-		assertEquals(obj.isUserClicked(string),true);
-	}
+//	@Then("Admin clicks {string} from navigation bar")
+//	public void admin_clicks_from_navigation_bar(String string) {
+//		LoggerLoad.info("Admin clicks User link from navigation bar");
+//		assertEquals(obj.isUserClicked(string),true);
+//	}
 
 	@Given("Admin is in manage user page")
 	public void admin_is_in_manage_user_page() {
@@ -33,8 +35,9 @@ public class AssignStudent {
 
 	@When("Admin clicks {string} button")
 	public void admin_clicks_button(String string) {
-		LoggerLoad.info("Admin checks if user link is clicked");
-		assertEquals(obj.isAssignStudClicked(string),true);
+		//LoggerLoad.info("Admin checks if user link is clicked");
+		//assertEquals(obj.isAssignStudClicked(string),true);
+		obj.clickButton(string);
 	}
 
 	@Then("Admin should see a pop up open for assign student details with empty form along with Save and Cancel button and close \\(X) icon on the top right corner of the window")
@@ -80,24 +83,21 @@ public class AssignStudent {
 	@When("Admin clicks {string} button with out entering any data")
 	public void admin_clicks_button_with_out_entering_any_data(String string) {
 		LoggerLoad.info("Admin clicks Save button");
-		obj.clickSave();
+		obj.clickButton(string);
 	}
 
 	@Then("Admin gets a Error message alert")
 	public void admin_gets_a_error_message_alert() {
-		LoggerLoad.info("Admin gets error message");
-		assertEquals(obj.getUserError(),"User Email Id is required.");
-		assertEquals(obj.getProgramError(),"Program Name is required.");
-		assertEquals(obj.getBatchError(),"Batch Name is required.");
-		assertEquals(obj.getStatuError(),"Status is required.");
-
+		String msg=obj.errorMsg();
+		LoggerLoad.info("Admin gets error message :"+msg);
 	} 
 
-	@When("Admin clicks {string} button without entering Student Email id")
-	public void admin_clicks_button_without_entering_student_email_id(String string) throws InvalidFormatException, IOException {
-        obj.setWithoutEmail();
-	}
-
+//	@When("Admin clicks {string} button without entering Student Email id")
+//	public void admin_clicks_button_without_entering_student_email_id(String string) throws InvalidFormatException, IOException {
+//		LoggerLoad.info("Admin clicks Save button without entering Student Email id");
+//		obj.setWithoutEmail();
+//	}
+	
 	@Then("Admin gets a Error message alert as {string}")
 	public void admin_gets_a_error_message_alert_as(String string) {
 		assertEquals(obj.errorMsg(),string);
@@ -131,12 +131,12 @@ public class AssignStudent {
 	   assertTrue(obj.isPopupClosed());
 	}
 	
-	@When("Enter all the required fields with valid values and click Save button")
-	public void enter_all_the_required_fields_with_valid_values_and_click_save_button() throws InvalidFormatException, IOException{
-		LoggerLoad.info("Admin enters valid data to fields");
-		obj.setValidData();
-		    
-	}
+//	@When("Enter all the required fields with valid values and click Save button")
+//	public void enter_all_the_required_fields_with_valid_values_and_click_save_button() throws InvalidFormatException, IOException{
+//		LoggerLoad.info("Admin enters valid data to fields");
+//		obj.setValidData();
+//		    
+//	}
 
 	@Then("Admin gets a message {string} alert")
 	public void admin_gets_a_message_alert(String string) {

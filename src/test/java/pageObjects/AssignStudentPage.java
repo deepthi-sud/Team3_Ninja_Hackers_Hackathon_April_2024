@@ -41,7 +41,7 @@ public class AssignStudentPage {
 	By radioBtn = By.xpath("//span[@class='p-radiobutton-icon']");
 	By activeBtn = By.xpath("//div[contains(text(),'Active')]//div[2]");
 	By inactiveBtn = By.xpath("//div[contains(text(),'Inactive')]//div[2]");
-	By userError=By.xpath(".//div[contains(text(),' User Email Id is required')]");
+	By userError=By.xpath(".//div[contains(text(),'Email Id is required')]");
 	By pgmError=By.xpath(".//div[contains(text(),'Program Name is required')]"); 
 	By batchError=By.xpath(".//div[contains(text(),'Batch Name is required')]");
 	By statusError=By.xpath(".//div[contains(text(),'Status is required')]");
@@ -139,6 +139,11 @@ public class AssignStudentPage {
 		driver.findElement(saveBtn).click();
 
 	}
+	public void clickButton(String str) {
+		driver.findElement(By.xpath(".//button[@label='"+str+"']")).click();
+
+	}
+	
 	public void clickCloseIcon() throws InterruptedException {
 
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
@@ -147,44 +152,37 @@ public class AssignStudentPage {
 
 	}
 	
-	public String getUserError() {
-		return driver.findElement(userError).getText();
-	}
-	public String getProgramError() {
-		return driver.findElement(pgmError).getText();
-	}
-	public String getBatchError() {
-		return driver.findElement(batchError).getText();
-	}
-	public String getStatuError() {
-		return driver.findElement(statusError).getText();
-	}
-     
 	public String errorMsg() {
-		String errormsg = null;
-		try {
-		if(driver.findElement(userError).isDisplayed())
-			errormsg=driver.findElement(userError).getText();
-		}
-		catch(NoSuchElementException e) {
-				}
-		try { if(driver.findElement(pgmError).isDisplayed())
-			errormsg= driver.findElement(pgmError).getText();}
-		catch(NoSuchElementException e) {
-			
-		}
-		try { if(driver.findElement(batchError).isDisplayed())
-			errormsg= driver.findElement(batchError).getText();
-		}catch(NoSuchElementException e) {
-			
-		}
-		try {if(driver.findElement(statusError).isDisplayed())
-			errormsg= driver.findElement(statusError).getText();}
-		catch(NoSuchElementException e) {
-			
-		}
-		return errormsg;
+	    StringBuilder errorMsg = new StringBuilder();
+	    
+	    try {
+	        if (driver.findElement(userError).isDisplayed()) {
+	            errorMsg.append(driver.findElement(userError).getText()).append(" ");
+	        }
+	    } catch (NoSuchElementException ignored) {}
+
+	    try {
+	        if (driver.findElement(pgmError).isDisplayed()) {
+	            errorMsg.append(driver.findElement(pgmError).getText()).append(" ");
+	        }
+	    } catch (NoSuchElementException ignored) {}
+
+	    try {
+	        if (driver.findElement(batchError).isDisplayed()) {
+	            errorMsg.append(driver.findElement(batchError).getText()).append(" ");
+	        }
+	    } catch (NoSuchElementException ignored) {}
+
+	    try {
+	        if (driver.findElement(statusError).isDisplayed()) {
+	            errorMsg.append(driver.findElement(statusError).getText());
+	        }
+	    } catch (NoSuchElementException ignored) {}
+
+	    return errorMsg.toString().trim();
 	}
+
+	
 	public void clickCancelBtn() {
 
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
@@ -333,6 +331,8 @@ public class AssignStudentPage {
 		return alertMessage;
 
 	}
+
+
 	
 
 

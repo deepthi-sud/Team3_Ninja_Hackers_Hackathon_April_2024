@@ -80,8 +80,8 @@ public class ProgramPage extends LoginPage{
     		return driver.getCurrentUrl();
     	}
         public void doFill() throws InterruptedException {
-        	driver.findElement(nameTxtbox).sendKeys("Team3wgf");
-        	driver.findElement(desTxtbox).sendKeys("Team3yvdvdy");
+        	driver.findElement(nameTxtbox).sendKeys("Team3bn");
+        	driver.findElement(desTxtbox).sendKeys("Team3ytt");
         	driver.findElement(activeBtn).click();     	        	
         	driver.findElement(save).click();
         }
@@ -95,10 +95,10 @@ public class ProgramPage extends LoginPage{
         
         
         public void doEditName() {
-        	driver.findElement(nameTxtbox).sendKeys("Team3zzz");
+        	driver.findElement(nameTxtbox).sendKeys("Team3zu");
         }
         public void doEditDES() {
-        	driver.findElement(desTxtbox).sendKeys("Team3xxx");
+        	driver.findElement(desTxtbox).sendKeys("Team3jj");
         }
         public String getSuccessMsg() throws InterruptedException { 
  	        
@@ -186,16 +186,16 @@ public class ProgramPage extends LoginPage{
 			return driver.findElement(nameTxtbox).isDisplayed();			
 		}
 		public void enterNameTxt() {
-			 driver.findElement(nameTxtbox).sendKeys("Team3wwwrr");
+			 driver.findElement(nameTxtbox).sendKeys("Team3gh");
 		}
 		public void enterDesTxt() {
-			 driver.findElement(desTxtbox).sendKeys("Team3qqqtt");
+			 driver.findElement(desTxtbox).sendKeys("Team3qqth");
 		}
 		public void enterNameTxt1() {
-			 driver.findElement(nameTxtbox).sendKeys("9800065");
+			 driver.findElement(nameTxtbox).sendKeys("980779");
 		}
 		public void enterDesTxt1() {
-			 driver.findElement(desTxtbox).sendKeys("&*%*^^&^");
+			 driver.findElement(desTxtbox).sendKeys("&*%*^^");
 		}
 		public String getDesTitle() {
 			 return driver.findElement(desTitle).getText();

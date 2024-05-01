@@ -10,7 +10,7 @@ import utilities.DriverFactory;
 public class BatchPage {
 	
 	 public  static WebDriver driver=DriverFactory.getdriver();
-		String lmsUrl=ConfigReader.getUrl();
+	//	String lmsUrl=ConfigReader.getUrl();
 	
 
 	By Username= By.id("username");

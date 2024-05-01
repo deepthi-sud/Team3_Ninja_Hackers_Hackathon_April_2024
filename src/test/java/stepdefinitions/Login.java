@@ -41,6 +41,7 @@ public class Login {
 	public void admin_enter_valid_credentials_and_clicks_login_button() {
 		login.setLogin();
 		login.clickLoginBtn();
+	
 	}
 
 	@Then("Admin should land on dashboard page")

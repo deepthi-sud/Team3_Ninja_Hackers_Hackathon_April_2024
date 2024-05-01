@@ -128,10 +128,10 @@ public void admin_should_see_zero_entries_on_the_data_table() throws Interrupted
 	userPage.validateInvalidInput();
    }
 
-@When("Admin clicks {string} button")
-public void admin_clicks_button(String string) throws InterruptedException {
-    userPage.addNewUserIcon();
-}
+//@When("Admin clicks {string} button")
+//public void admin_clicks_button(String string) throws InterruptedException {
+//    userPage.addNewUserIcon();
+//}
 
 @Then("Admin should see pop up open for user details")
 public void admin_should_see_pop_up_open_for_user_details() throws InterruptedException {
@@ -211,10 +211,10 @@ public void user_details_popup_window_should_be_closed_without_saving() throws I
 	userPage.showErrorMsg();
 }
 
-@When("Admin clicks Cancel button")
-public void admin_clicks_cancel_button() throws InterruptedException {
-	userPage.clickCancelButton();
-}
+//@When("Admin clicks Cancel button")
+//public void admin_clicks_cancel_button() throws InterruptedException {
+//	userPage.clickCancelButton();
+//}
 
 @Then("Admin can see the User details popup disappears without adding any user")
 public void admin_can_see_the_user_details_popup_disappears_without_adding_any_user() throws InterruptedException {
