@@ -304,6 +304,73 @@ public void admin_can_see_the_user_details_popup_disappears_and_can_see_nothing_
     
 }
 
+///delete
+
+@When("Admin clicks the delete icon")
+public void admin_clicks_the_delete_icon() throws InterruptedException {
+	  userPage.searchInputForDelete("mary");
+   userPage.clickDeleteButton();
+ 
+}
+
+@Then("Admin should see a alert open with heading {string} along with  <YES> and <NO> button for deletion")
+public void admin_should_see_a_alert_open_with_heading_along_with_yes_and_no_button_for_deletion(String string) throws InterruptedException {
+   userPage.validateDeleteAlert();
+   userPage.clickCloseOnDeletePopUp();
+}
+
+@Given("Admin is on Confirm Deletion alert")
+public void admin_is_on_confirm_deletion_alert() throws InterruptedException {
+	userPage.searchInputForDelete1("maryd");
+	 userPage.clickDeleteButton1();
+}
+
+@When("Admin clicks yes option")
+public void admin_clicks_yes_option() throws InterruptedException {
+    userPage.clickYesOnDeletePopUp();
+}
+
+@Then("Admin gets a message {string} alert and do not see that user in the data table")
+public void admin_gets_a_message_alert_and_do_not_see_that_user_in_the_data_table(String string) {
+    
+}
+
+@Given("Admin is on Confirmation Deletion alert")
+public void admin_is_on_confirmation_deletion_alert() throws InterruptedException {
+	userPage.searchInputForDelete2("java");
+	 userPage.clickDeleteButton2();
+}
+
+@When("Admin clicks  No option")
+public void admin_clicks_no_option() throws InterruptedException {
+	  userPage.clickNoOnDeletePopUp();
+}
+
+@Then("Admin can see the deletion alert disappears without deleting")
+public void admin_can_see_the_deletion_alert_disappears_without_deleting() {
+    
+}
+
+@Given("Admin is on Confirm Deletion alert for close")
+public void admin_is_on_confirm_deletion_alert_for_close() throws InterruptedException {
+	userPage.searchInputForDelete3("ninja");
+	 userPage.clickDeleteButton3();
+}
+
+
+@When("Admin clicks on close button")
+public void admin_clicks_on_close_button() {
+	 userPage.clickCloseOnDeletePopUp1();
+}
+
+@Then("Admin can see the deletion alert disappears without any changes")
+public void admin_can_see_the_deletion_alert_disappears_without_any_changes() {
+ 
+}
+
+
+
+
 
 
 

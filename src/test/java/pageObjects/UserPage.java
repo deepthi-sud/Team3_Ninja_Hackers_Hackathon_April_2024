@@ -35,7 +35,7 @@ public class UserPage extends LoginPage {
 	By footertxt = By.xpath("//div[text()=' In total there are z programs. ']");
 	By deleteIcon = By.xpath("//button[contains(@icon, 'pi pi-trash')]");
 	By pagenum = By.xpath("//button[@class='p-paginator-next p-paginator-element p-link p-ripple']");
-	//By addnewUser = By.xpath("//button[contains(@id, 'new')]");
+	// By addnewUser = By.xpath("//button[contains(@id, 'new')]");
 	By assignStudent = By.xpath("//span[contains(text(),'Assign Student')]");
 	By assignStaff = By.xpath("//button[contains(@label, 'Assign Staff')]");
 	By searchInput = By.xpath("//input[contains(@id, 'filterGlobal')]");
@@ -44,7 +44,7 @@ public class UserPage extends LoginPage {
 	By search = By.xpath("//input[@class='p-inputtext p-component']");
 	By addnewuser = By.xpath("//span[contains(text(),'Add New User')]");
 	By userdetailspage = By.xpath("//span[contains(text(),'User Details')]");
-    
+
 	public String getHeader() throws InterruptedException {
 		// driver.wait();
 		return driver.findElement(header).getText();
@@ -131,7 +131,7 @@ public class UserPage extends LoginPage {
 	public void validateInput(String validateString) throws InterruptedException {
 		Thread.sleep(3000);
 		String findResult = driver.findElement(By.xpath("//tbody/tr/td[3]")).getText();
-		System.out.print("findResult::"+findResult);
+		System.out.print("findResult::" + findResult);
 		Assert.assertTrue(findResult.contains(validateString));
 	}
 
@@ -146,7 +146,7 @@ public class UserPage extends LoginPage {
 		Thread.sleep(3000);
 		String findResult = driver.findElement(By.xpath("//span[contains(text(),'Showing 0 to 0 of 0 entries')]"))
 				.getText();
-		System.out.println("------@@@@@@@@@findResult@@@@@@@@------------------------->>>>>>>>>>>"+findResult);
+		System.out.println("------@@@@@@@@@findResult@@@@@@@@------------------------->>>>>>>>>>>" + findResult);
 		Assert.assertTrue(findResult.contains(searchString));
 	}
 
@@ -159,7 +159,7 @@ public class UserPage extends LoginPage {
 	}
 
 	public void userDetailsPage() throws InterruptedException {
-		
+
 		WebElement addNewUser = driver.findElement(addnewuser);
 		Actions actions = new Actions(driver);
 		actions.moveToElement(addNewUser).click().build().perform();
@@ -167,12 +167,10 @@ public class UserPage extends LoginPage {
 		String findResult = driver.findElement(By.xpath("//span[contains(text(),'User Details')]")).getText();
 		Assert.assertEquals(searchString, findResult);
 		// Assert.assertTrue(driver.getPageSource().contains("First name"));
-		driver.findElement(
-				By.xpath("//span[contains(text(),'Cancel')]"))
-				.click();
+		driver.findElement(By.xpath("//span[contains(text(),'Cancel')]")).click();
 		Thread.sleep(1000);
 	}
-	
+
 	public void editUserDetailsPage() throws InterruptedException {
 		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
 		Actions actions = new Actions(driver);
@@ -180,18 +178,16 @@ public class UserPage extends LoginPage {
 		String searchString = "User Details";
 		String findResult = driver.findElement(By.xpath("//span[contains(text(),'User Details')]")).getText();
 		Assert.assertEquals(searchString, findResult);
-		driver.findElement(
-				By.xpath("//span[contains(text(),'Cancel')]"))
-				.click();
+		driver.findElement(By.xpath("//span[contains(text(),'Cancel')]")).click();
 	}
 
 	public void userDetailsVerificationPage() throws InterruptedException {
-		//Thread.sleep(3000);
+		// Thread.sleep(3000);
 		// Assert.assertTrue(driver.getPageSource().contains("Middle name"));
-		WebElement addUser =  driver.findElement(addnewuser);
+		WebElement addUser = driver.findElement(addnewuser);
 		Actions actions = new Actions(driver);
 		actions.moveToElement(addUser).click().build().perform();
-		//Thread.sleep(1000);
+		// Thread.sleep(1000);
 		Assert.assertTrue(driver.getPageSource().contains("First name"));
 		Assert.assertTrue(driver.getPageSource().contains("Middle name"));
 		Assert.assertTrue(driver.getPageSource().contains("Last name"));
@@ -202,11 +198,11 @@ public class UserPage extends LoginPage {
 	}
 
 	public void userDetailsDropDownVerificationPage() throws InterruptedException {
-		
+
 		WebElement addNewUser = driver.findElement(addnewuser);
 		Actions actions = new Actions(driver);
 		actions.moveToElement(addNewUser).click().build().perform();
-		
+
 		Assert.assertTrue(driver.getPageSource().contains("User Role"));
 		Assert.assertTrue(driver.getPageSource().contains("User Role Status"));
 		Assert.assertTrue(driver.getPageSource().contains("User Visa Status"));
@@ -216,7 +212,7 @@ public class UserPage extends LoginPage {
 	}
 
 	public void openNewUserIcon() throws InterruptedException {
-		
+
 		WebElement openNewUserIcon = driver.findElement(addnewuser);
 		Actions actions = new Actions(driver);
 		actions.moveToElement(openNewUserIcon).click().build().perform();
@@ -257,7 +253,6 @@ public class UserPage extends LoginPage {
 		WebElement itemToSelect3 = driver.findElement(By.xpath("//span[contains(text(),'H4-EAD')]"));
 		itemToSelect3.click();
 
-
 		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
 		submitButton.click();
 	}
@@ -270,11 +265,12 @@ public class UserPage extends LoginPage {
 	public void skipMandatoryUserFormSubmit() throws InterruptedException {
 		WebElement inputByDataPlaceholder = driver.findElement(By.cssSelector("input[data-placeholder='First name']"));
 		inputByDataPlaceholder.sendKeys("skip");
-		
+
 		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
 		submitButton.click();
-		
-		WebElement crossButton = driver.findElement(By.xpath("//body/app-root[1]/app-user[1]/div[1]/p-dialog[1]/div[1]/div[1]/div[1]/div[1]/button[1]"));
+
+		WebElement crossButton = driver.findElement(
+				By.xpath("//body/app-root[1]/app-user[1]/div[1]/p-dialog[1]/div[1]/div[1]/div[1]/div[1]/button[1]"));
 		crossButton.click();
 	}
 
@@ -374,7 +370,7 @@ public class UserPage extends LoginPage {
 		String number = String.valueOf((long) (Math.random() * 100000 + 3333300000L));
 		return number;
 	}
-	
+
 	public void editIcon() {
 		driver.findElement(editIcon).click();
 	}
@@ -399,10 +395,10 @@ public class UserPage extends LoginPage {
 		driver.findElement(By.cssSelector("input[data-placeholder='Middle name']")).sendKeys("1234");
 		driver.findElement(By.cssSelector("input[data-placeholder='Phone no']")).sendKeys("abcdefgh");
 		driver.findElement(By.cssSelector("input[data-placeholder='LinkedIn Url']"))
-		.sendKeys("https://www.link.com/in/steve-creams-835641/");
+				.sendKeys("https://www.link.com/in/steve-creams-835641/");
 		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
 		submitButton.click();
-		
+
 	}
 
 	public void fillMandatoryUserInfoForEdit() throws InterruptedException {
@@ -427,11 +423,12 @@ public class UserPage extends LoginPage {
 		driver.findElement(By.cssSelector("input[data-placeholder='First name']")).clear();
 		driver.findElement(By.cssSelector("input[data-placeholder='First name']")).sendKeys("testAOptional");
 		driver.findElement(By.cssSelector("input[data-placeholder='Middle name']")).sendKeys("allenqqqs");
-		driver.findElement(By.cssSelector("input[data-placeholder='Email address']")).sendKeys("dominos.mary@gmail.com");
+		driver.findElement(By.cssSelector("input[data-placeholder='Email address']"))
+				.sendKeys("dominos.mary@gmail.com");
 		driver.findElement(By.cssSelector("input[data-placeholder='User Comments']")).sendKeys("not applicable");
 		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
 		submitButton.click();
-		
+
 	}
 
 	public void fillNumbersNSpecialUserInfoForEdit() throws InterruptedException {
@@ -442,11 +439,12 @@ public class UserPage extends LoginPage {
 		driver.findElement(By.cssSelector("input[data-placeholder='First name']")).sendKeys("1234");
 		driver.findElement(By.cssSelector("input[data-placeholder='Middle name']")).sendKeys("56777");
 		driver.findElement(By.cssSelector("input[data-placeholder='Last name']")).sendKeys("9999@@@@");
-		driver.findElement(By.cssSelector("input[data-placeholder='Email address']")).sendKeys("dominos.mary@gmail.com");
+		driver.findElement(By.cssSelector("input[data-placeholder='Email address']"))
+				.sendKeys("dominos.mary@gmail.com");
 		driver.findElement(By.cssSelector("input[data-placeholder='User Comments']")).sendKeys("not applicable");
 		WebElement submitButton = driver.findElement(By.xpath("//span[contains(text(),'Submit')]"));
 		submitButton.click();
-		
+
 	}
 
 	public void clickCancelButtonOnEdit() throws InterruptedException {
@@ -455,8 +453,116 @@ public class UserPage extends LoginPage {
 		WebElement editButton = driver.findElement(By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[1]/span[1]"));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(editButton).click().build().perform();
-		driver.findElement(
-				By.xpath("//span[contains(text(),'Cancel')]"))
-				.click();
+		driver.findElement(By.xpath("//span[contains(text(),'Cancel')]")).click();
+	}
+
+	public void clickDeleteButton() throws InterruptedException {
+
+		By deleteUser = By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[2]/span[1]");
+		WebElement editButton = driver.findElement(deleteUser);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(editButton).click().build().perform();
+		Thread.sleep(3000);
+	}
+
+	public void validateDeleteAlert() throws InterruptedException {
+		// TODO Auto-generated method stub
+		By deleteAlert = By.xpath("//span[contains(text(),'Are you sure you want to delete the user?')]");
+		String deleteAlertText = driver.findElement(deleteAlert).getText();
+		System.out.println("*********just validating alert***************" + deleteAlertText);
+		Assert.assertTrue(deleteAlertText.contains("delete"));
+	}
+
+	public void clickYesOnDeletePopUp() {
+		// TODO Auto-generated method stub
+		By deleteYesXpath = By.xpath("//span[contains(text(),'Yes')]");
+		WebElement deleteYesButton = driver.findElement(deleteYesXpath);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(deleteYesButton).click().build().perform();
+	}
+
+	public void clickNoOnDeletePopUp() {
+		// TODO Auto-generated method stub
+		By deleteNoXpath = By.xpath("//span[contains(text(),'No')]");
+		WebElement deleteNoButton = driver.findElement(deleteNoXpath);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(deleteNoButton).click().build().perform();
+	}
+
+	public void clickCloseOnDeletePopUp() {
+		By deleteNoXpath = By.xpath(
+				"//body/app-root[1]/app-user[1]/div[1]/p-confirmdialog[1]/div[1]/div[1]/div[1]/div[1]/button[1]");
+		WebElement deleteNoButton = driver.findElement(deleteNoXpath);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(deleteNoButton).click().build().perform();
+	}
+
+	public void searchInputForDelete(String searchString) throws InterruptedException {
+		// TODO Auto-generated method stub
+		Thread.sleep(3000);
+		By search1 = By.xpath("//input[@class='p-inputtext p-component']");
+		driver.findElement(search1).sendKeys(searchString);
+		Thread.sleep(3000);
+	}
+
+	public void searchInputForDelete1(String searchString) throws InterruptedException {
+		// TODO Auto-generated method stub
+		Thread.sleep(3000);
+		By searchInput = By.xpath("//input[contains(@id, 'filterGlobal')]");
+		driver.findElement(searchInput).clear();
+		driver.findElement(searchInput).sendKeys(searchString);
+		Thread.sleep(3000);
+	}
+
+	public void searchInputForDelete2(String searchString) throws InterruptedException {
+		By searchInput = By.xpath("//input[@id='filterGlobal']");
+		driver.findElement(searchInput).clear();
+		driver.findElement(searchInput).sendKeys(searchString);
+		Thread.sleep(3000);
+	}
+
+	public void clickDeleteButton1() throws InterruptedException {
+		// TODO Auto-generated method stub
+		By deleteUser = By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[2]/span[1]");
+		WebElement delButton = driver.findElement(deleteUser);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(delButton).click().build().perform();
+		Thread.sleep(3000);
+	}
+
+	public void clickDeleteButton2() throws InterruptedException {
+		By deleteUser = By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[2]/span[1]");
+		WebElement delButton = driver.findElement(deleteUser);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(delButton).click().build().perform();
+		Thread.sleep(3000);
+	}
+
+	public void searchInputForDelete3(String searchString) throws InterruptedException {
+		By searchInput = By.xpath("//input[@id='filterGlobal']");
+		driver.findElement(searchInput).clear();
+		driver.findElement(searchInput).sendKeys(searchString);
+		Thread.sleep(3000);
+
+	}
+
+	public void clickDeleteButton3() throws InterruptedException {
+		// TODO Auto-generated method stub
+		By deleteUser = By.xpath("//tbody/tr[1]/td[6]/div[1]/span[1]/button[2]/span[1]");
+		// By deleteUser = By.xpath("//input[@class='p-inputtext p-component']");
+		WebElement delButton = driver.findElement(deleteUser);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(delButton).click().build().perform();
+		Thread.sleep(3000);
+
+	}
+
+	public void clickCloseOnDeletePopUp1() {
+		By deleteNoXpath = By.xpath(
+				"//body/app-root[1]/app-user[1]/div[1]/p-confirmdialog[1]/div[1]/div[1]/div[1]/div[1]/button[1]");
+		WebElement deleteNoButton = driver.findElement(deleteNoXpath);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(deleteNoButton).click().build().perform();
+
 	}
 }
