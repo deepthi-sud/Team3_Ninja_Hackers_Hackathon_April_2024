@@ -1,10 +1,10 @@
 
 Feature: Batch Page Validation
 
-#Background: 
-#Given Admin enters url
-#When Admin enters valid credentials and then click on login button
-#Then Admin navigates to Learning Management System Page
+Background: 
+Given Admin enters url
+When Admin enters valid credentials and then click on login button
+Then Admin navigates to Learning Management System Page
 
 
 Scenario: Validate header in the Batch Page

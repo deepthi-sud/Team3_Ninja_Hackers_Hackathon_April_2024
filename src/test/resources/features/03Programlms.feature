@@ -5,7 +5,7 @@ Feature: Validating program page
 
 Background: Validate login with valid credentials
     Given Admin is in Home Page
-    When Admin enter valid credentials  and clicks login button 
+    When Admin enter valid credentials and clicks login button 
     Then Admin should land on dashboard page
 
 Scenario: Verify landing in Program page
