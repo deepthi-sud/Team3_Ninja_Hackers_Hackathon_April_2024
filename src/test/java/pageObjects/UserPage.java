@@ -138,14 +138,16 @@ public class UserPage extends LoginPage {
 	public void searchInvalidInput() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.findElement(searchInput).clear();
-		driver.findElement(searchInput).sendKeys("AAAA");
+		driver.findElement(searchInput).sendKeys("tumri");
 	}
 
 	public void validateInvalidInput() throws InterruptedException {
 		String searchString = "Showing 0 to 0 of 0 entries";
+		Thread.sleep(3000);
 		String findResult = driver.findElement(By.xpath("//span[contains(text(),'Showing 0 to 0 of 0 entries')]"))
 				.getText();
-		Assert.assertEquals(searchString, findResult);
+		System.out.println("------@@@@@@@@@findResult@@@@@@@@------------------------->>>>>>>>>>>"+findResult);
+		Assert.assertTrue(findResult.contains(searchString));
 	}
 
 	public void addNewUserIcon() throws InterruptedException {

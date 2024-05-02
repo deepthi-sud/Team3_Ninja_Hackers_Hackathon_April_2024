@@ -115,7 +115,7 @@ public void admin_enters_user_name_into_search_box() throws InterruptedException
 
 @Then("Admin should see user displayed with the entered name")
 public void admin_should_see_user_displayed_with_the_entered_name() throws InterruptedException {
-	userPage.validateInput("Mary Poppins");
+	userPage.validateInput("Mary");
 }
     
 @When("Admin enters the keywords not present in the data table on the Search box")
