@@ -1,9 +1,9 @@
 Feature: User page validation
 
-  #Scenario: Validate login with valid credentials
-    #Given Admin is in Home Page
-    #When Admin enter valid credentials  and clicks login button
-    #Then Admin should land on dashboard page
+  Scenario: Validate login with valid credentials
+    Given Admin is in Home Page
+    When Admin enter valid credentials  and clicks login button
+    Then Admin should land on dashboard page
 
   #1
   Scenario: Validate landing in User page
@@ -15,7 +15,7 @@ Feature: User page validation
   Scenario: Validate the heading
     Given Admin is on dashboard page after Login
     When Admin clicks "User" from navigation bar
-    Then Admin should see a heading with text "Manage user" on the page
+    Then Admin should see a heading with text "Manage User" on the page
 
   #3
   Scenario Outline: Validate the text and pagination icon below the data table
