@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,7 +27,7 @@ public class AssignStudentPage {
 	By username=By.id("username");
 	By password=By.id("password");
 	By loginBtn=By.xpath("//button[@type='submit']");
-	By userElmt =By.xpath("//button[@id='user']");
+	By userElmt =By.xpath("//span[contains(text(),'User')]");
 	By mnguser=By.xpath("//div[@class='box']");
 	By studAssgn=By.xpath("//button[@id='Assign']");//Assign student button
 	By modalElmnt=By.xpath(".//div[@role='dialog']");
@@ -57,7 +58,12 @@ public class AssignStudentPage {
 	}
 
 	public boolean isUserClicked(String str) {
-		driver.findElement(userElmt).click();
+		
+		WebElement userElement = driver.findElement(userElmt);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(userElement).click().build().perform();
+		
+		
 		if (driver.findElement(userElmt).getText().equals(str)) 
 			return true;
 		else 
@@ -140,8 +146,9 @@ public class AssignStudentPage {
 
 	}
 	public void clickButton(String str) {
+		System.out.print("inside clickButton:::"+str);
 		driver.findElement(By.xpath(".//button[@label='"+str+"']")).click();
-
+		//span[contains(text(),'Add New User')]
 	}
 	
 	public void clickCloseIcon() throws InterruptedException {
