@@ -4223,3 +4223,927 @@ Save
 2024-05-01 23:33:43 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
 2024-05-01 23:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
 2024-05-01 23:33:44 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 00:36:11 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 00:36:18 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:18 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:20 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:25 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:25 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:26 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:28 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:29 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:30 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:31 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:31 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:32 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:32 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:32 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:33 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:33 [main] INFO  utilities.LoggerLoad - Admin checks if Manage program is header
+2024-05-02 00:36:34 [main] INFO  utilities.LoggerLoad - headerManage Program
+2024-05-02 00:36:34 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:35 [main] INFO  utilities.LoggerLoad - Admin check if link is broken
+2024-05-02 00:36:35 [main] INFO  utilities.LoggerLoad - Link is not broken and response is:200
+2024-05-02 00:36:36 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:37 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-02 00:36:37 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-02 00:36:37 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:38 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-02 00:36:38 [main] INFO  utilities.LoggerLoad - Title is top left
+2024-05-02 00:36:39 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:39 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling in navigation bar text
+2024-05-02 00:36:40 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:40 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-02 00:36:40 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-02 00:36:41 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:41 [main] INFO  utilities.LoggerLoad - Admin checks if navigation bar text on the top right side
+2024-05-02 00:36:42 [main] INFO  utilities.LoggerLoad - Navigationbar is top right
+2024-05-02 00:36:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:44 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:45 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:47 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:48 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:48 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:48 [main] INFO  utilities.LoggerLoad - LMS
+2024-05-02 00:36:49 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:49 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:52 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:36:52 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/
+2024-05-02 00:36:53 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:53 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:53 [main] INFO  utilities.LoggerLoad - Showing 0 to 0 of 0 entries
+2024-05-02 00:36:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:53 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:54 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:54 [main] INFO  utilities.LoggerLoad - In total there are 127 programs.
+2024-05-02 00:36:54 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:55 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:55 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:56 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:56 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:56 [main] INFO  utilities.LoggerLoad - In total there are 0 programs.
+2024-05-02 00:36:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:57 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:58 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:36:59 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:36:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:36:59 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:37:00 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:37:00 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:37:01 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:37:01 [main] INFO  utilities.LoggerLoad - 
+2024-05-02 00:37:01 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:37:01 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:37:04 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:05 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:37:05 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:37:08 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:09 [main] INFO  utilities.LoggerLoad - Name
+*
+2024-05-02 00:37:09 [main] INFO  utilities.LoggerLoad - Description
+*
+2024-05-02 00:37:09 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:37:10 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:37:13 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:13 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:37:14 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:37:17 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:20 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:20 [main] INFO  utilities.LoggerLoad - Program Details
+Name
+*
+Description
+*
+Status*
+Active
+Inactive
+Cancel
+Save
+2024-05-02 00:37:20 [main] INFO  utilities.LoggerLoad - Program Details
+Name
+*
+Description
+*
+Status*
+Active
+Inactive
+Cancel
+Save
+2024-05-02 00:37:20 [main] INFO  utilities.LoggerLoad - Admin gets error message :
+2024-05-02 00:37:24 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:27 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:27 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:30 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:30 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:33 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:33 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:36 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:36 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:39 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:39 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:43 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:43 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:46 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 00:37:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:37:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:38:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:02 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:38:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:03 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:38:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:38:05 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:06 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:38:06 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:07 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:38:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:08 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:38:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:09 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:38:09 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:23 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-02 00:38:30 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:38:39 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-02 00:39:05 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:39:05 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:15 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:15 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:19 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:19 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:19 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:19 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:19 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:19 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:19 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:20 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:20 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:20 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:20 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:20 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:20 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:20 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:21 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:21 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:21 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:21 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:22 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:22 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:22 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:23 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:23 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:23 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:23 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:23 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:23 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:23 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:23 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:39:25 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:25 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:25 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:39:26 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:39:26 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:39:52 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:39:52 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:39:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:09 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 00:40:09 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:40:09 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:31 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:40:46 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:46 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 00:40:47 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-02 00:40:47 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:48 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 00:40:48 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-02 00:40:48 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-02 00:40:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:49 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 00:40:49 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-02 00:40:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:50 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 00:40:50 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-02 00:40:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:51 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-02 00:40:51 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-02 00:40:52 [main] INFO  utilities.LoggerLoad - Admin gets error message :User Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-02 00:40:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:53 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-02 00:40:53 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-02 00:40:53 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-02 00:40:54 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:54 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-02 00:40:54 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-02 00:40:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:56 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 00:40:56 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-02 00:40:57 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:57 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 00:40:57 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-02 00:40:57 [main] INFO  utilities.LoggerLoad - Fileds are displayed
+2024-05-02 00:40:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:40:58 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 00:40:59 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-02 00:40:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:41:00 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 00:41:00 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-02 00:41:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:41:01 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-02 00:41:01 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-02 00:41:02 [main] INFO  utilities.LoggerLoad - Admin gets error message :Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-02 00:41:02 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:41:03 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-02 00:41:03 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-02 00:41:03 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-02 00:41:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 00:41:04 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-02 00:41:04 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-02 00:41:15 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:41:16 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:41:16 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:41:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:41:18 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 00:41:18 [main] INFO  utilities.LoggerLoad - Admin is expected to be on dashboard page
+2024-05-02 00:41:18 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 00:41:18 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 01:06:37 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 01:06:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:06:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:06:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:06:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:06:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:06:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:06:56 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:06:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:06:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:06:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:06:59 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:06:59 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:06:59 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:00 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:00 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:01 [main] INFO  utilities.LoggerLoad - Admin checks if Manage program is header
+2024-05-02 01:07:01 [main] INFO  utilities.LoggerLoad - headerManage Program
+2024-05-02 01:07:02 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:03 [main] INFO  utilities.LoggerLoad - Admin check if link is broken
+2024-05-02 01:07:03 [main] INFO  utilities.LoggerLoad - Link is not broken and response is:200
+2024-05-02 01:07:04 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:04 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-02 01:07:04 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-02 01:07:05 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:06 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-02 01:07:06 [main] INFO  utilities.LoggerLoad - Title is top left
+2024-05-02 01:07:07 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:07 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling in navigation bar text
+2024-05-02 01:07:08 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:08 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-02 01:07:09 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-02 01:07:09 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:10 [main] INFO  utilities.LoggerLoad - Admin checks if navigation bar text on the top right side
+2024-05-02 01:07:10 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:07:11 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:12 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:14 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:15 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:16 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:16 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:16 [main] INFO  utilities.LoggerLoad - LMS
+2024-05-02 01:07:17 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:17 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:20 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:20 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/
+2024-05-02 01:07:21 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:21 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:21 [main] INFO  utilities.LoggerLoad - Showing 0 to 0 of 0 entries
+2024-05-02 01:07:21 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:07:22 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:22 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:22 [main] INFO  utilities.LoggerLoad - In total there are 0 programs.
+2024-05-02 01:07:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:07:23 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:23 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:24 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:24 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:24 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:25 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:25 [main] INFO  utilities.LoggerLoad - In total there are 0 programs.
+2024-05-02 01:07:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:26 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:26 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:27 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:27 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:28 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:28 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:07:28 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:29 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:29 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:07:29 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:29 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:30 [main] INFO  utilities.LoggerLoad - 
+2024-05-02 01:07:30 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:30 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:33 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:34 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:34 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:37 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:38 [main] INFO  utilities.LoggerLoad - Name
+*
+2024-05-02 01:07:38 [main] INFO  utilities.LoggerLoad - Description
+*
+2024-05-02 01:07:38 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:38 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:41 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:07:43 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:07:46 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:49 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:49 [main] INFO  utilities.LoggerLoad - Program Details
+Name
+*
+Description
+*
+Status*
+Active
+Inactive
+Cancel
+Save
+2024-05-02 01:07:49 [main] INFO  utilities.LoggerLoad - Program Details
+Name
+*
+Description
+*
+Status*
+Active
+Inactive
+Cancel
+Save
+2024-05-02 01:07:49 [main] INFO  utilities.LoggerLoad - Admin gets error message :
+2024-05-02 01:07:52 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:07:55 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:56 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:07:59 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:07:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:02 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:08:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:05 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:08:05 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:08 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:08:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:11 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:08:11 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:14 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:08:14 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:26 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:26 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:27 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:28 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:29 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:08:29 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:30 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:08:30 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:31 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:08:31 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:32 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:08:32 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:33 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:08:33 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:34 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:08:34 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:35 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:08:35 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:36 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:08:36 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:08:51 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-02 01:08:57 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:06 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-02 01:09:33 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:33 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:37 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 01:09:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:44 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:45 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:47 [main] INFO  utilities.LoggerLoad - Admin checks if Manage program is header
+2024-05-02 01:09:47 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:47 [main] INFO  utilities.LoggerLoad - headerManage Program
+2024-05-02 01:09:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:47 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:48 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:49 [main] INFO  utilities.LoggerLoad - Admin check if link is broken
+2024-05-02 01:09:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:50 [main] INFO  utilities.LoggerLoad - Link is not broken and response is:200
+2024-05-02 01:09:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:51 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:51 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-02 01:09:52 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-02 01:09:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:52 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:53 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-02 01:09:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:09:53 [main] INFO  utilities.LoggerLoad - Title is top left
+2024-05-02 01:09:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:54 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:55 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling in navigation bar text
+2024-05-02 01:09:55 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:09:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:09:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:56 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-02 01:09:56 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-02 01:09:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:09:58 [main] INFO  utilities.LoggerLoad - Admin checks if navigation bar text on the top right side
+2024-05-02 01:09:58 [main] INFO  utilities.LoggerLoad - Navigationbar is top right
+2024-05-02 01:09:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:10:00 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:10:02 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:10:04 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:10:04 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 01:10:21 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:10:21 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:10:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:10:55 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:10:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:10:56 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:10:56 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:37 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:37 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 01:11:37 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-02 01:11:38 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:38 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 01:11:39 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-02 01:11:39 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-02 01:11:39 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:40 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 01:11:40 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-02 01:11:41 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:41 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 01:11:41 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-02 01:11:42 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:42 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-02 01:11:42 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-02 01:11:43 [main] INFO  utilities.LoggerLoad - Admin gets error message :User Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-02 01:11:43 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:44 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-02 01:11:44 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-02 01:11:44 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-02 01:11:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:45 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-02 01:11:45 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-02 01:11:46 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:47 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 01:11:47 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-02 01:11:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:48 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 01:11:48 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-02 01:11:48 [main] INFO  utilities.LoggerLoad - Fileds are displayed
+2024-05-02 01:11:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:49 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 01:11:50 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-02 01:11:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:50 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-02 01:11:51 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-02 01:11:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:52 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-02 01:11:52 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-02 01:11:52 [main] INFO  utilities.LoggerLoad - Admin gets error message :Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-02 01:11:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:53 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-02 01:11:54 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-02 01:11:54 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-02 01:11:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:11:55 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-02 01:11:55 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-02 01:12:06 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:12:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:12:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:12:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:12:09 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:12:09 [main] INFO  utilities.LoggerLoad - Admin is expected to be on dashboard page
+2024-05-02 01:12:10 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:12:10 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 01:17:52 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 01:18:00 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:02 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:02 [main] INFO  utilities.LoggerLoad - LMS
+2024-05-02 01:18:03 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:04 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:07 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:18:07 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/
+2024-05-02 01:18:08 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:09 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:09 [main] INFO  utilities.LoggerLoad - Showing 1 to 5 of 117 entries
+2024-05-02 01:18:09 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:18:10 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:10 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:10 [main] INFO  utilities.LoggerLoad - In total there are 117 programs.
+2024-05-02 01:18:10 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:18:11 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:12 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:13 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:13 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:14 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:15 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:15 [main] INFO  utilities.LoggerLoad - In total there are 0 programs.
+2024-05-02 01:18:15 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:16 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:16 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:17 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:17 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:17 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:18:18 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:18 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:18 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:18:19 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:19 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:19 [main] INFO  utilities.LoggerLoad - 
+2024-05-02 01:18:19 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:20 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:23 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:18:24 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:24 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:28 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:18:28 [main] INFO  utilities.LoggerLoad - Name
+*
+2024-05-02 01:18:28 [main] INFO  utilities.LoggerLoad - Description
+*
+2024-05-02 01:18:28 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:29 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:32 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:18:33 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:18:33 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:18:36 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-02 01:18:36 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 01:25:18 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 01:25:42 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-02 01:25:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:25:59 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-02 01:26:27 [main] INFO  utilities.LoggerLoad -  Batch Created
+2024-05-02 01:26:36 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:26:45 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 01:31:50 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 01:31:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:00 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:12 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:12 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:12 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:16 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-02 01:32:16 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-02 01:32:16 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:17 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:17 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:18 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:19 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:19 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:20 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:21 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:23 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:23 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:23 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:25 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:25 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:26 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:27 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:27 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:27 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:28 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:29 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:29 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:29 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:30 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:30 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:31 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:31 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:31 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:33 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:34 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:34 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:34 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:35 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:35 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:35 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:36 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:37 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:37 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:37 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:38 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:39 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:39 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:39 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:39 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:40 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:41 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:41 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:41 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:43 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:43 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:43 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:44 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:44 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:44 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:46 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:46 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:47 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:48 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:49 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:49 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:50 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:51 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:52 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:53 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:55 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:56 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:56 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:58 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:32:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:32:59 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:32:59 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:33:00 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:33:00 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:33:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:33:02 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:33:02 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:33:02 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:33:02 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 01:42:11 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 01:42:19 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:23 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:23 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:35 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:35 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:35 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:38 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-02 01:42:38 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-02 01:42:39 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:40 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:40 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:40 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:42:41 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:41 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:41 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:44 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:44 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:44 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:46 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:46 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:46 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:42:48 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:49 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:50 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:50 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:42:52 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:53 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:55 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:57 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:57 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:42:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:42:59 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:42:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:00 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:01 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:02 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:03 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:03 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:05 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:05 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:05 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:06 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:43:06 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:07 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:07 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:43:08 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:08 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:08 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:09 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:10 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:10 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:43:10 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:11 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:11 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:12 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:12 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:12 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:13 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:13 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:13 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:15 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:16 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:16 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:17 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:18 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:18 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:19 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:20 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:20 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:21 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:22 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:22 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:43:23 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:24 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:26 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:26 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:27 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:43:28 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:43:28 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:43:28 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 01:50:40 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 01:50:47 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:50:49 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:50:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:01 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:02 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:02 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:05 [main] INFO  utilities.LoggerLoad - Manage User
+2024-05-02 01:51:05 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/user
+2024-05-02 01:51:06 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:07 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:07 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:08 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:09 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:09 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:10 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:10 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:10 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:12 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:12 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:12 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:13 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:14 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:14 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:15 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:16 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:16 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:17 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:18 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:18 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:19 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:19 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:19 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:20 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:21 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:23 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:23 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:23 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:24 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:24 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:26 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:26 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:27 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:27 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:27 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:29 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:30 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:30 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:31 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:31 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:31 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:32 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:32 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:33 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:34 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:34 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:35 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:35 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:35 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:36 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:37 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:37 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:38 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:39 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:39 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:40 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:40 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:40 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:41 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:42 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:42 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:43 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:43 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:43 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:51:44 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:44 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:44 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:45 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:46 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:46 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:46 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:51:47 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:51:47 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:51:48 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-02 01:54:01 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-02 01:54:09 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-02 01:54:11 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-02 01:54:12 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-02 01:54:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-02 01:54:48 [main] INFO  utilities.LoggerLoad - Closing Driver

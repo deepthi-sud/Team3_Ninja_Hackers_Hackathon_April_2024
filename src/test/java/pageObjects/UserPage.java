@@ -10,8 +10,10 @@ import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utilities.ConfigReader;
 import utilities.DriverFactory;
@@ -34,7 +36,8 @@ public class UserPage extends LoginPage {
 	By paginatetxt = By.xpath("//span[contains(text(),'Showing x to y of z entries')]");
 	By footertxt = By.xpath("//div[text()=' In total there are z programs. ']");
 	By deleteIcon = By.xpath("//button[contains(@icon, 'pi pi-trash')]");
-	By pagenum = By.xpath("//button[@class='p-paginator-next p-paginator-element p-link p-ripple']");
+	//By pagenum = By.xpath("//button[@class='p-paginator-next p-paginator-element p-link p-ripple']");
+	By pagenum = By.xpath(".//button[contains(@class,'p-paginator-next')]");
 	//By addnewUser = By.xpath("//button[contains(@id, 'new')]");
 	By assignStudent = By.xpath("//span[contains(text(),'Assign Student')]");
 	By assignStaff = By.xpath("//button[contains(@label, 'Assign Staff')]");
@@ -119,7 +122,9 @@ public class UserPage extends LoginPage {
 	}
 
 	public void pagination() {
-		driver.findElement(pagenum).click();
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement paginator=wait.until(ExpectedConditions.elementToBeClickable(pagenum));
+		paginator.click();
 	}
 
 	public void searchInput(String searchString) throws InterruptedException {

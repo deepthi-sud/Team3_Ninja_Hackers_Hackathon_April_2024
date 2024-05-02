@@ -1,8 +1,8 @@
 Feature: User page validation
 
-  Scenario: Validate login with valid credentials
+  Background: Validate login with valid credentials
     Given Admin is in Home Page
-    When Admin enter valid credentials  and clicks login button
+    When Admin enter valid credentials and clicks login button
     Then Admin should land on dashboard page
 
   #1
@@ -40,8 +40,6 @@ Feature: User page validation
       | 61 | 65 | 77 |
       | 66 | 70 | 77 |
       | 71 | 75 | 77 |
-      
-    
 
   #4
   Scenario Outline: Validate the texts and pagination icon below the data table
@@ -51,8 +49,6 @@ Feature: User page validation
     Examples: 
       | x  | y  | z  |
       | 76 | 77 | 77 |
-      
-
 
   #4
   Scenario: Validate data table headers in the User Page
@@ -60,58 +56,56 @@ Feature: User page validation
     When Admin clicks "User" from navigation bar
     Then Admin Should see the data table with column names Id, Name, location, Phone Number, Edit/Delete
 
- # 5
+  # 5
   Scenario: Validating the default state of Delete button
     Given Admin is on dashboard page after Login
     When Admin clicks "User" from navigation bar
     Then Admin should see a {deleteIcon} button on the top left hand side as Disabled
-    
- #   6
-    Scenario: Validate "Add New user" button in User Page
+
+  #   6
+  Scenario: Validate "Add New user" button in User Page
     Given Admin is on dashboard page after Login
     When Admin clicks "User" from navigation bar
     Then Admin should be able to see the "addnewUser" button above the data table
-    
-   #  7
-    Scenario: Validate "+ Assign Student"  button in User page
+
+  #  7
+  Scenario: Validate "+ Assign Student"  button in User page
     Given Admin is on dashboard page after Login
     When Admin clicks "User" from navigation bar
     Then Admin should be able to see the "assignStudent" button above the data table
-    
-   #  8
-    Scenario: Validate "+ Assign staff"  button in User page
+
+  #  8
+  Scenario: Validate "+ Assign staff"  button in User page
     Given Admin is on dashboard page after Login
     When Admin clicks "User" from navigation bar
     Then Admin should be able to see the "assignStaff" button above the data table
-    
-   # 9
-    Scenario: Validate search box in User page
-    Given Admin is on dashboard page after Login	
-    When Admin clicks "User" from navigation bar	
+
+  # 9
+  Scenario: Validate search box in User page
+    Given Admin is on dashboard page after Login
+    When Admin clicks "User" from navigation bar
     Then Admin should be able to see the "searchInput" text box above the data table
-    
-   # 10
-		Scenario: Validate number of data rows in the data table
-		Given Admin is on dashboard page after Login
-		When Admin clicks "User" from navigation bar
-		Then Admin should see two  records displayed on the data table
 
-#11
-Scenario: Verify Check box on the data table
-Given Admin is on dashboard page after Login
-When Admin clicks "User" from navigation bar
-Then Each row in the data table should have a checkbox
+  # 10
+  Scenario: Validate number of data rows in the data table
+    Given Admin is on dashboard page after Login
+    When Admin clicks "User" from navigation bar
+    Then Admin should see two  records displayed on the data table
 
-#12
-Scenario: Verify edit icon on the data table
-Given Admin is on dashboard page after Login
-When Admin clicks "User" from navigation bar
-Then Each row in the data table should have a edit icon that is enabled
+  #11
+  Scenario: Verify Check box on the data table
+    Given Admin is on dashboard page after Login
+    When Admin clicks "User" from navigation bar
+    Then Each row in the data table should have a checkbox
 
-#13
-Scenario: Verify  delete icon on the data table
-Given Admin is on dashboard page after Login
-When Admin clicks "User" from navigation bar
-Then Each row in the data table should have a delete icon that is enabled
+  #12
+  Scenario: Verify edit icon on the data table
+    Given Admin is on dashboard page after Login
+    When Admin clicks "User" from navigation bar
+    Then Each row in the data table should have a edit icon that is enabled
 
-
+  #13
+  Scenario: Verify  delete icon on the data table
+    Given Admin is on dashboard page after Login
+    When Admin clicks "User" from navigation bar
+    Then Each row in the data table should have a delete icon that is enabled

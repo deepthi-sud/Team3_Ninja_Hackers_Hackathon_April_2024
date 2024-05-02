@@ -90,8 +90,10 @@ public class DashboardPage {
 	}
 
 	public boolean isNavLocRight() {
-		int getX =driver.findElement(navigationElement).getLocation().getX();
-		int getY=driver.findElement(navigationElement).getLocation().getY();
+		WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement nav=wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(navigationElement)));
+		int getX =nav.getLocation().getX();
+		int getY=nav.getLocation().getY();
 		if (getX>1000 && getY<20)
 			return true;
 		else

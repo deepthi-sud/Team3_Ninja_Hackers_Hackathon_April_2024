@@ -107,5 +107,8 @@ public class Programlms_SD {
 	public void admin_could_see_a_popup_open_for_program_details_to_edit() {
 	    program.doCancel();
 	}
-
+	@When("Admin clicks <Edit>button on the data table for any row")
+	public void admin_clicks_edit_button_on_the_data_table_for_any_row() {
+	   
+	}
 }

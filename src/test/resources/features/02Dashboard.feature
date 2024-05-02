@@ -9,12 +9,12 @@ Feature: Validating Dashboard page
   Given Admin is in Home Page
   When Admin enter valid credentials and clicks login button
   Then Admin should see manage program as header
-  #
+  
   #Scenario: Verify the response time
   #Given Admin is in Home Page
   #When Admin enter valid credentials  and clicks login button
   #Then Maximum navigation time in milliseconds, defaults to 30 seconds
-  #
+  
   Scenario: Verify broken link
   Given Admin is in Home Page
   When Admin enter valid credentials and clicks login button
