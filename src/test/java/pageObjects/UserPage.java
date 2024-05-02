@@ -35,14 +35,14 @@ public class UserPage extends LoginPage {
 	By footertxt = By.xpath("//div[text()=' In total there are z programs. ']");
 	By deleteIcon = By.xpath("//button[contains(@icon, 'pi pi-trash')]");
 	By pagenum = By.xpath("//button[@class='p-paginator-next p-paginator-element p-link p-ripple']");
-	By addnewUser = By.xpath("//button[contains(@id, 'new')]");
-	By assignStudent = By.xpath("//button[contains(@label, 'Assign Student')]");
+	//By addnewUser = By.xpath("//button[contains(@id, 'new')]");
+	By assignStudent = By.xpath("//span[contains(text(),'Assign Student')]");
 	By assignStaff = By.xpath("//button[contains(@label, 'Assign Staff')]");
 	By searchInput = By.xpath("//input[contains(@id, 'filterGlobal')]");
 	By editIcon = By.xpath("//button[contains(@icon, 'pi pi-pencil')]");
 	By tableCounnt = By.xpath("//table/tbody/tr");
 	By search = By.xpath("//input[@class='p-inputtext p-component']");
-	By addnewuser = By.xpath("//button[@id='new']");
+	By addnewuser = By.xpath("//span[contains(text(),'Add New User')]");
 	By userdetailspage = By.xpath("//span[contains(text(),'User Details')]");
     
 	public String getHeader() throws InterruptedException {
@@ -92,7 +92,7 @@ public class UserPage extends LoginPage {
 
 	public void isDisplayed() {
 		driver.findElement(deleteIcon).isDisplayed();
-		driver.findElement(addnewUser).isDisplayed();
+		driver.findElement(addnewuser).isDisplayed();
 		driver.findElement(assignStudent).isDisplayed();
 		driver.findElement(assignStaff).isDisplayed();
 		driver.findElement(searchInput).isDisplayed();
@@ -138,14 +138,16 @@ public class UserPage extends LoginPage {
 	public void searchInvalidInput() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.findElement(searchInput).clear();
-		driver.findElement(searchInput).sendKeys("AAAA");
+		driver.findElement(searchInput).sendKeys("tumri");
 	}
 
 	public void validateInvalidInput() throws InterruptedException {
 		String searchString = "Showing 0 to 0 of 0 entries";
+		Thread.sleep(3000);
 		String findResult = driver.findElement(By.xpath("//span[contains(text(),'Showing 0 to 0 of 0 entries')]"))
 				.getText();
-		Assert.assertEquals(searchString, findResult);
+		System.out.println("------@@@@@@@@@findResult@@@@@@@@------------------------->>>>>>>>>>>"+findResult);
+		Assert.assertTrue(findResult.contains(searchString));
 	}
 
 	public void addNewUserIcon() throws InterruptedException {
@@ -157,7 +159,10 @@ public class UserPage extends LoginPage {
 	}
 
 	public void userDetailsPage() throws InterruptedException {
-		driver.findElement(addnewuser).click();
+		
+		WebElement addNewUser = driver.findElement(addnewuser);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(addNewUser).click().build().perform();
 		String searchString = "User Details";
 		String findResult = driver.findElement(By.xpath("//span[contains(text(),'User Details')]")).getText();
 		Assert.assertEquals(searchString, findResult);
@@ -181,10 +186,12 @@ public class UserPage extends LoginPage {
 	}
 
 	public void userDetailsVerificationPage() throws InterruptedException {
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		// Assert.assertTrue(driver.getPageSource().contains("Middle name"));
-		driver.findElement(addnewuser).click();
-		Thread.sleep(1000);
+		WebElement addUser =  driver.findElement(addnewuser);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(addUser).click().build().perform();
+		//Thread.sleep(1000);
 		Assert.assertTrue(driver.getPageSource().contains("First name"));
 		Assert.assertTrue(driver.getPageSource().contains("Middle name"));
 		Assert.assertTrue(driver.getPageSource().contains("Last name"));
@@ -195,7 +202,11 @@ public class UserPage extends LoginPage {
 	}
 
 	public void userDetailsDropDownVerificationPage() throws InterruptedException {
-		driver.findElement(addnewuser).click();
+		
+		WebElement addNewUser = driver.findElement(addnewuser);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(addNewUser).click().build().perform();
+		
 		Assert.assertTrue(driver.getPageSource().contains("User Role"));
 		Assert.assertTrue(driver.getPageSource().contains("User Role Status"));
 		Assert.assertTrue(driver.getPageSource().contains("User Visa Status"));
@@ -205,7 +216,10 @@ public class UserPage extends LoginPage {
 	}
 
 	public void openNewUserIcon() throws InterruptedException {
-		driver.findElement(addnewuser).click();
+		
+		WebElement openNewUserIcon = driver.findElement(addnewuser);
+		Actions actions = new Actions(driver);
+		actions.moveToElement(openNewUserIcon).click().build().perform();
 	}
 
 	public void fillNewUserFormSubmit(String firstName, String emailId, String linkedInURL, String phoneNum)

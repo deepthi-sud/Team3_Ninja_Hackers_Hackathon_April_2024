@@ -15,7 +15,7 @@ Feature: User page validation
   Scenario: Validate the heading
     Given Admin is on dashboard page after Login
     When Admin clicks "User" from navigation bar
-    Then Admin should see a heading with text "Manage user" on the page
+    Then Admin should see a heading with text "Manage User" on the page
 
   #3
   Scenario Outline: Validate the text and pagination icon below the data table
@@ -67,7 +67,7 @@ Feature: User page validation
     Then Admin should see a {deleteIcon} button on the top left hand side as Disabled
     
  #   6
-    Scenario: Validate "+ A New user" button in User Page
+    Scenario: Validate "Add New user" button in User Page
     Given Admin is on dashboard page after Login
     When Admin clicks "User" from navigation bar
     Then Admin should be able to see the "addnewUser" button above the data table

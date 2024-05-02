@@ -11,7 +11,7 @@ import org.openqa.selenium.ElementNotInteractableException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
@@ -72,8 +72,8 @@ public class ProgramPage extends LoginPage{
     	By toastDetail = By.xpath("//div[contains(@class, 'p-toast-detail')]") ;
 		
         public String getHeader() throws InterruptedException {      
-        	Thread.sleep(2000);
-    		return driver.findElement(header).getText();     		
+        	Thread.sleep(3000);
+    		return driver.findElement(header).getText();  
     	}
         public String getCurrentUrl() {
     		

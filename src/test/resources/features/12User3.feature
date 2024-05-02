@@ -1,10 +1,5 @@
 Feature: Edit new user
 
-Background: Admin is on dashboard page after Login and clicks User on the navigation bar
-    Given Admin is on dashboard page after Login
-    When Admin clicks "User" from navigation bar
-    Then Admin should see a heading with text "Manage user" on the page
-
  Scenario: Validate login with valid credentials
     Given Admin is in Home Page
     When Admin enter valid credentials and clicks login button 

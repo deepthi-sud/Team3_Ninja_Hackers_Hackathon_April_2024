@@ -1,10 +1,6 @@
 Feature: Add new user
 
-  #Background: Admin is on dashboard page after Login and clicks User on the navigation bar
-  #Given Admin is on dashboard page after Login
-  #When Admin clicks "User" from navigation bar
-  #Then Admin should see a heading with text "Manage user" on the page
-  Scenario: Validate login with valid credentials
+ Scenario: Validate login with valid credentials
     Given Admin is in Home Page
     When Admin enter valid credentials  and clicks login button
     Then Admin should land on dashboard page
@@ -15,22 +11,23 @@ Feature: Add new user
     Then Admin should see the "Manage User" in the URL
 
   #  16
-  Scenario: Validate User Details Popup window
-    Given Admin is on Manage User Page
-    When Admin clicks "+ A New User" button
-    Then Admin should see pop up open for user details
 
-  #17
-  Scenario: Validate input fields and text boxes in user details form
-    Given Admin is on Manage User Page
-    When Admin clicks "+ A New User" button
-    Then Admin should see text boxes for the fields
+Scenario: Validate User Details Popup window
+Given Admin is on Manage User Page
+When Admin clicks "Add New User" button
+Then Admin should see pop up open for user details 
 
-  #18
-  Scenario: Validate drop downs in new user form
-    Given Admin is on Manage User Page
-    When Admin clicks "+ A New User" button
-    Then Admin should see drop downs for the fields User Role,Role status, visa status on user details pop up
+#17
+Scenario: Validate input fields and text boxes in user details form
+Given Admin is on Manage User Page
+When Admin clicks "Add New User" button
+Then Admin should see text boxes for the fields 
+
+#18
+Scenario: Validate drop downs in new user form
+Given Admin is on Manage User Page
+When Admin clicks "Add New User" button
+Then Admin should see drop downs for the fields User Role,Role status, visa status on user details pop up
 
   #19
   Scenario: Check if user is created when only mandatory fields are entered with valid data
