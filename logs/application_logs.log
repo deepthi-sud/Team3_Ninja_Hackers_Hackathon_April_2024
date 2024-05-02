@@ -3371,3 +3371,855 @@ Save
 2024-05-01 17:21:24 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
 2024-05-01 17:21:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
 2024-05-01 17:21:24 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 21:33:14 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 21:33:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:23 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:28 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:29 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:30 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:31 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:33 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:33:34 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:35 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:36 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:37 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:37 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:33:37 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:38 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:33:39 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:40 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:41 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:41 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:43 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:43 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:45 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:55 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:33:58 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 21:36:55 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 21:37:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:08 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:09 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:10 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:11 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:12 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:37:12 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:14 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:15 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:16 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:17 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:37:17 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:17 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:37:18 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:19 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:20 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:21 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:21 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:22 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:22 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:23 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:23 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:23 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:24 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:24 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:26 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:26 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:27 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:27 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:37:29 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:31 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:33 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:36 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:38 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:40 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:42 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:46 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:37:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:37:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:37:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:37:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:37:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:37:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:37:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:37:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:37:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:05 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-01 21:38:11 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:21 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-01 21:38:47 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:48 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:49 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:50 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:53 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:38:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:54 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:54 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:54 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:54 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:54 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:54 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:55 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:55 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:38:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:38:55 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:56 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:56 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:56 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:38:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:05 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:09 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:10 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:10 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 21:39:10 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 21:39:10 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:11 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:12 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 21:39:12 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 21:39:12 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:13 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:14 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 21:39:14 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 21:39:15 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:15 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 21:39:16 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:17 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:17 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 21:39:17 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 21:39:18 [main] INFO  utilities.LoggerLoad - Admin gets error message :
+2024-05-01 21:39:19 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:19 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 21:39:20 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 21:39:26 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 21:39:26 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:27 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:27 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 21:39:28 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 21:39:34 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:35 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:35 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 21:39:36 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 21:39:36 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:37 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:37 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 21:39:38 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 21:39:38 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:39 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:39 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 21:39:40 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 21:39:41 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:41 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 21:39:42 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:43 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:43 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 21:39:43 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 21:39:44 [main] INFO  utilities.LoggerLoad - Admin gets error message :
+2024-05-01 21:39:45 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:45 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 21:39:45 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 21:39:52 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 21:39:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:39:53 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 21:39:53 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 21:39:53 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 21:40:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:40:00 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 21:56:36 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 21:56:42 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:56:43 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:56:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:56:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:56:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:56:51 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:56:53 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:56:53 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:56:55 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:56:55 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:56:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:56:56 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:56:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:56:57 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 21:56:57 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 21:58:26 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 21:58:35 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:58:36 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:58:37 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:58:38 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:58:39 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:58:40 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:58:41 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 21:58:42 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:58:42 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:58:42 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:58:42 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 21:58:42 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 21:59:57 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 22:00:05 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:07 [main] INFO  utilities.LoggerLoad - Admin checks if Manage program is header
+2024-05-01 22:00:07 [main] INFO  utilities.LoggerLoad - headerManage Program
+2024-05-01 22:00:08 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:08 [main] INFO  utilities.LoggerLoad - Admin check if link is broken
+2024-05-01 22:00:09 [main] INFO  utilities.LoggerLoad - Link is not broken and response is:200
+2024-05-01 22:00:10 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:10 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 22:00:10 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 22:00:11 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:12 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-01 22:00:12 [main] INFO  utilities.LoggerLoad - Title is top left
+2024-05-01 22:00:13 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:13 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling in navigation bar text
+2024-05-01 22:00:14 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:15 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 22:00:15 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 22:00:15 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:16 [main] INFO  utilities.LoggerLoad - Admin checks if navigation bar text on the top right side
+2024-05-01 22:00:16 [main] INFO  utilities.LoggerLoad - Navigationbar is top right
+2024-05-01 22:00:17 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:18 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:20 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:21 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 22:00:22 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 23:14:08 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 23:14:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:14:18 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:14:19 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:14:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:14:25 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:14:26 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:14:27 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:29 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:14:30 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:31 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:32 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:33 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:33 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:14:34 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:34 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:14:35 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:36 [main] INFO  utilities.LoggerLoad - Admin checks if Manage program is header
+2024-05-01 23:14:36 [main] INFO  utilities.LoggerLoad - headerManage Program
+2024-05-01 23:14:37 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:38 [main] INFO  utilities.LoggerLoad - Admin check if link is broken
+2024-05-01 23:14:38 [main] INFO  utilities.LoggerLoad - Link is not broken and response is:200
+2024-05-01 23:14:39 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:40 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 23:14:40 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 23:14:41 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:41 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-01 23:14:41 [main] INFO  utilities.LoggerLoad - Title is top left
+2024-05-01 23:14:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:43 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling in navigation bar text
+2024-05-01 23:14:44 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:44 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 23:14:44 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 23:14:45 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:46 [main] INFO  utilities.LoggerLoad - Admin checks if navigation bar text on the top right side
+2024-05-01 23:14:46 [main] INFO  utilities.LoggerLoad - Navigationbar is top right
+2024-05-01 23:14:47 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:48 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:50 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:52 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:53 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:53 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:55 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:55 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:59 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:59 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:14:59 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:15:00 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:15:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:15:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:05 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 23:28:12 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:15 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:17 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:28:17 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 23:28:54 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 23:29:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:07 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:09 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:11 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:13 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:15 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:18 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:20 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:29:20 [main] INFO  utilities.LoggerLoad - Closing Driver
+2024-05-01 23:30:05 [main] INFO  utilities.LoggerLoad - Testing on firefox
+2024-05-01 23:30:12 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:12 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:14 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:19 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:20 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:21 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:22 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:24 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:25 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:26 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:27 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:28 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:28 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:28 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:29 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:30 [main] INFO  utilities.LoggerLoad - Admin checks if Manage program is header
+2024-05-01 23:30:30 [main] INFO  utilities.LoggerLoad - headerManage Program
+2024-05-01 23:30:31 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:31 [main] INFO  utilities.LoggerLoad - Admin check if link is broken
+2024-05-01 23:30:32 [main] INFO  utilities.LoggerLoad - Link is not broken and response is:200
+2024-05-01 23:30:33 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:33 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 23:30:33 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 23:30:34 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:35 [main] INFO  utilities.LoggerLoad - Admin checks if LMS title is top left
+2024-05-01 23:30:35 [main] INFO  utilities.LoggerLoad - Title is top left
+2024-05-01 23:30:36 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:36 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling in navigation bar text
+2024-05-01 23:30:37 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:38 [main] INFO  utilities.LoggerLoad - Admin checks correct spelling and space in LMS title 
+2024-05-01 23:30:38 [main] INFO  utilities.LoggerLoad - title LMS - Learning Management System
+2024-05-01 23:30:39 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:39 [main] INFO  utilities.LoggerLoad - Admin checks if navigation bar text on the top right side
+2024-05-01 23:30:39 [main] INFO  utilities.LoggerLoad - Navigationbar is top right
+2024-05-01 23:30:40 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:42 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:43 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:45 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:46 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:47 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:47 [main] INFO  utilities.LoggerLoad - LMS
+2024-05-01 23:30:47 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:48 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:50 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:30:50 [main] INFO  utilities.LoggerLoad - https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/
+2024-05-01 23:30:50 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:51 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:51 [main] INFO  utilities.LoggerLoad - Showing 0 to 0 of 0 entries
+2024-05-01 23:30:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:51 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:52 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:52 [main] INFO  utilities.LoggerLoad - In total there are 0 programs.
+2024-05-01 23:30:52 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:52 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:53 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:53 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:54 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:54 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:55 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:55 [main] INFO  utilities.LoggerLoad - In total there are 0 programs.
+2024-05-01 23:30:55 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:55 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:56 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:56 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:57 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:57 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:57 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:30:59 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:30:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:30:59 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:31:00 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:31:00 [main] INFO  utilities.LoggerLoad - 
+2024-05-01 23:31:00 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:31:01 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:31:03 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:04 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:31:04 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:31:06 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:07 [main] INFO  utilities.LoggerLoad - Name
+*
+2024-05-01 23:31:07 [main] INFO  utilities.LoggerLoad - Description
+*
+2024-05-01 23:31:07 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:31:07 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:31:10 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:10 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:31:11 [main] INFO  utilities.LoggerLoad - Title of current page is : LMS
+2024-05-01 23:31:13 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:15 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:15 [main] INFO  utilities.LoggerLoad - Program Details
+Name
+*
+Description
+*
+Status*
+Active
+Inactive
+Cancel
+Save
+2024-05-01 23:31:15 [main] INFO  utilities.LoggerLoad - Program Details
+Name
+*
+Description
+*
+Status*
+Active
+Inactive
+Cancel
+Save
+2024-05-01 23:31:16 [main] INFO  utilities.LoggerLoad - Admin gets error message :
+2024-05-01 23:31:18 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:18 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:20 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:20 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:22 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:22 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:24 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:24 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:26 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:26 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:29 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:29 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:31 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:31 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:33 [main] INFO  utilities.LoggerLoad - Manage Program
+2024-05-01 23:31:33 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:47 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:48 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:49 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:50 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:51 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:31:51 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:52 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:31:53 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:54 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:31:54 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:55 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:31:55 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:56 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:31:56 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:31:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:31:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:31:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:15 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-01 23:32:21 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:31 [main] INFO  utilities.LoggerLoad - Admin is in Manage Batch Page
+2024-05-01 23:32:58 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:32:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:58 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:58 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:32:59 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:32:59 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:00 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:00 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:01 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:01 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:02 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:02 [main] INFO  utilities.LoggerLoad - Admin is expected to be on Home page
+2024-05-01 23:33:02 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:02 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:03 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:03 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:04 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:04 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:05 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:06 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 23:33:06 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 23:33:07 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:07 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 23:33:08 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 23:33:08 [main] INFO  utilities.LoggerLoad - Student Email id,Program Name,Batch Name Fileds are displayed
+2024-05-01 23:33:09 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:09 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 23:33:09 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 23:33:10 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:10 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 23:33:11 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 23:33:12 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:12 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 23:33:13 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 23:33:13 [main] INFO  utilities.LoggerLoad - Admin gets error message :User Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 23:33:14 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:14 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 23:33:14 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 23:33:15 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 23:33:16 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:16 [main] INFO  utilities.LoggerLoad - Admin is in pop up page
+2024-05-01 23:33:16 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 23:33:17 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:18 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 23:33:18 [main] INFO  utilities.LoggerLoad - Admin checks Pop up is displayed
+2024-05-01 23:33:19 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:19 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 23:33:20 [main] INFO  utilities.LoggerLoad - User Role is correct
+2024-05-01 23:33:20 [main] INFO  utilities.LoggerLoad - Fileds are displayed
+2024-05-01 23:33:21 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:21 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 23:33:21 [main] INFO  utilities.LoggerLoad - dropdown is displayed
+2024-05-01 23:33:22 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:23 [main] INFO  utilities.LoggerLoad - Admin checks if he is  manage user page
+2024-05-01 23:33:23 [main] INFO  utilities.LoggerLoad - Radio buttons are displayed
+2024-05-01 23:33:24 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:24 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 23:33:25 [main] INFO  utilities.LoggerLoad - Admin clicks Save button
+2024-05-01 23:33:25 [main] INFO  utilities.LoggerLoad - Admin gets error message :Email Id is required. Program Name is required. Batch Name is required. Status is required.
+2024-05-01 23:33:26 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:27 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 23:33:27 [main] INFO  utilities.LoggerLoad - Admin clicks close(X)icon
+2024-05-01 23:33:27 [main] INFO  utilities.LoggerLoad - Admin checks if pop up closed without saving
+2024-05-01 23:33:28 [main] INFO  utilities.LoggerLoad - Admin clicks User link from navigation bar
+2024-05-01 23:33:28 [main] INFO  utilities.LoggerLoad - Admin is in Assign Staff details pop up
+2024-05-01 23:33:28 [main] INFO  utilities.LoggerLoad - Admin clicks Cancel button
+2024-05-01 23:33:40 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:41 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:42 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:43 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:44 [main] ERROR utilities.LoggerLoad - Steps Failed , Taking Screenshot
+2024-05-01 23:33:44 [main] INFO  utilities.LoggerLoad - Closing Driver
