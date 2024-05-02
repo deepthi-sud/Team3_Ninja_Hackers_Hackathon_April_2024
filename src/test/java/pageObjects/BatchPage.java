@@ -85,7 +85,7 @@ public class BatchPage {
 
 	
 	// Enabled DeleteIcon on row wise
-	By DELETEICONEnable = By.xpath("//button[@icon='pi pi-trash']");
+	By DELETEICONEnable = By.xpath("//button[@id = 'deleteProgram']");
 	// EDIT ICON
 	By EditIcon = By.xpath("//button[@icon='pi pi-pencil']");
 
@@ -93,7 +93,7 @@ public class BatchPage {
 	By checkbox = By.xpath("//div[@role='checkbox']");
 	// Paginator
 	By Pagination = By.xpath("//div[@class='p-paginator-bottom p-paginator p-component ng-star-inserted']");
-	By getpopup=By.xpath("//div[@role='dialog']");
+	
 By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 	By poperrormsg=By.xpath("//div[text()='Failed']");
 	// message updated and deleted batch
@@ -101,7 +101,7 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 	By BatchDeletdMsg = By.xpath("//div[text()='batch Deleted']");
 	// Datatable all the elements
 	// div[@class='p-datatable-wrapper ng-star-inserted']
-
+	By deletedalert = By.xpath("//div[text()='Successful']");
 	// Manage Batch Page
 	By ManageBatchPage = By.xpath("//div[text()=' Manage Batch']");
 
@@ -109,7 +109,7 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 	By confirmWindow = By.xpath("//p-confirmdialog//div[contains(@class,'p-dialog-content')]");
 	By DeleteYes = By.xpath("//span[text()='Yes']");
 	By DeleteNo = By.xpath("//div[contains(@class,'p-dialog-footer')]/button[contains(@class,'p-confirm-dialog-reject')]");
-
+	By getpopup=By.xpath("//div[@role='dialog']");
 	// Search Text Box
 	By SearchBox = By.xpath("//input[@class='p-inputtext p-component']");
 
@@ -117,11 +117,14 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 
 		driver.findElement(DELETEICONEnable).click();
 
-//		WebElement DeleteI =
-//				driver.findElement(By.xpath("//span[@class='p-button-icon pi pi-trash'])[1]"));
-//		JavascriptExecutor executor = (JavascriptExecutor)driver;
-//		executor.executeScript("arguments[0].click();", DeleteI);
-
+		
+		/*
+		 * WebElement DeleteI = //
+		 * driver.findElement(By.xpath("//span[@class='p-button-icon pi pi-trash']") );
+		 * JavascriptExecutor executor = (JavascriptExecutor)driver; //
+		 * executor.executeScript("arguments[0].click();", DeleteI);
+		 */
+		 
 
 	}
 	
@@ -129,6 +132,38 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 		return driver.findElement(DescERROR).getText();
 		
 	}
+	
+	
+	
+	public boolean popupdisplay() {
+		
+		 boolean popup = driver.findElement(getpopup).isDisplayed();
+		 if (popup)
+		 {
+			 LoggerLoad.info("Popup is displayed");
+		 }
+		 
+			 else
+			 {
+				 LoggerLoad.info("Popup is not displayed");
+		 }
+		return popup;
+			 
+			 
+			 
+		 }
+
+
+
+		
+
+
+
+	
+	
+	
+	
+	
 
 	public boolean AddNewBatchButtonVisible() {
 		return driver.findElement(ANEWBATCH).isDisplayed();
@@ -178,7 +213,16 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
  		
  		return driver.getCurrentUrl();
  	}
-	
+	 public Boolean isInConfirmWindow() {
+			Boolean result = false;
+
+			result = driver.findElements(confirmWindow).size() > 0;
+
+			System.out.println("Is in confirm window : " + result);
+			return result;
+		}
+	 
+	 
 	
 
 	public void datatablecheckbox() {
@@ -241,7 +285,7 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 	}
 
 	public String getHeader() throws InterruptedException {
-		// driver.wait();
+		
 		return driver.findElement(header).getText();
 	}
 
@@ -310,6 +354,9 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 
 
 	}
+	
+	
+
 
 
 
@@ -478,9 +525,34 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 	public void UpdateField() {
 		driver.findElement(BatchNoofClasses).sendKeys("67");
 	}
+	public void checkboxselect1() {
+		driver.findElement(checkbox).click();
+	}
+	public void checkboxMulti() {
+		driver.findElement(checkbox).click();
+	}
+	
+	
+	public boolean isRespectiveRowDeleted() {
+		try {
+			WebElement RowDel =driver.findElement(By.xpath("//tr[@class='ng-star-inserted']"));
+		return false;
+		} catch (NoSuchElementException e) {
+            return true; 
+	}
+	}
+	
+	public String getUpdatedBatchDataTable() {
+		WebElement batchele=driver.findElement(By.xpath("//table//tbody[@class='p-datatable-tbody']//tr"));
+				 return batchele.getText();
+	}
+	
+	public void UpdateFieldInvalid() {
+		driver.findElement(BatchNoofClasses).sendKeys("abcd");
+		driver.findElement(AddDesc).sendKeys("@#%#$$%dvbndsd$#%");
+	}
 
-
-	public void CheckBoxSelected() {
+	public boolean CheckBoxSelected() {
 
 		List<WebElement> checkboxes = driver.findElements(By.xpath("//span[@class='p-checkbox-icon pi pi-check']"));
 
@@ -488,6 +560,7 @@ By DescERROR =By.xpath("//small[text()='Batch Description is required.']");
 			checkbox.click(); 
 		}
 		}
+		return false;
 	}
 }
 

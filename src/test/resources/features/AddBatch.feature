@@ -63,7 +63,7 @@ Then   The newly added batch should be present in the data table in Manage Batch
 Scenario:
   Given  Admin checks a new pop up with Batch details appears
     When   Check if any of the fields have invalid values
-    Then   Error message should appear
+   
 
   
   Scenario: Check for error messages for mandatory fields

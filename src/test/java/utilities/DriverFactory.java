@@ -1,9 +1,12 @@
 package utilities;
 
 import java.time.Duration;
+import java.util.Set;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -30,7 +33,11 @@ public class DriverFactory {
 
 		} else if (browser.equalsIgnoreCase("chrome")) {
 			LoggerLoad.info("Testing on chrome");
-			WebDriverManager.chromedriver().driverVersion("116.0.5845.96").setup();
+			
+			WebDriverManager.chromedriver().setup();
+			//ChromeOptions options = new ChromeOptions();
+	          // options.addArguments("--headless");
+			//return new ChromeDriver(options);
 			driver = new ChromeDriver();
 
 		} else if (browser.equalsIgnoreCase("safari")) {
@@ -44,6 +51,17 @@ public class DriverFactory {
 			driver = new EdgeDriver();
 
 		}
+		
+		
+		/*
+		 * String Parentwindow= driver.getWindowHandle();
+		 * driver.findElement(By.linkText("popup window")); Set<String>
+		 * windows=driver.getWindowHandles(); for(String win:windows) {
+		 * driver.switchTo().window(win);
+		 * if(driver.getTitle().equals("Basic Web Page Title")); //driver.close();
+		 * 
+		 * }
+		 */
 		// Set Page load timeout
 		
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));

@@ -8,11 +8,10 @@ import java.util.Properties;
 import constants.Constants;
 
 public class ConfigReader {
-	//private static Properties properties;
 	private final static String propertyFilePath = "./src/test/resources/Config.properties";
 	 private static Properties properties = new Properties();
 
-	public Properties  loadConfig() throws Throwable {
+	public  Properties  loadConfig() throws Throwable {
 
 		try {
 			FileInputStream fis; 
@@ -20,7 +19,8 @@ public class ConfigReader {
 			properties = new Properties();
 			properties.load(getClass().getResourceAsStream("/Config.properties"));
 			Constants.URL=properties.getProperty("url");
-			
+			Constants.user_name=properties.getProperty("username");
+			Constants.pass_word=properties.getProperty("password");
 			  try { properties.load(fis); fis.close(); } catch (IOException e) {
 			  e.printStackTrace(); }
 			 
@@ -37,13 +37,14 @@ public class ConfigReader {
 		browserType=browser;
 	}
 	
-	public static String getBrowserType() {
-		 browserType = properties.getProperty("browser");
-		if (browserType != null)
-			return browserType;
-		else
-			throw new RuntimeException("browser not specified in the testng.xml");
-	}
+//	public static String getBrowserType() throws Throwable {
+//		//String browser = properties.getProperty("browser");
+//		LoggerLoad.info("Get property BrowserType");
+//		if (browserType != null)
+//			return browserType;
+//		else
+//			throw new RuntimeException("browser not specified in the config.properties file.");
+//	}
 	
 //	public static String getBrowserType()throws Throwable {
 //        String browser = properties.getProperty("browser");
@@ -54,6 +55,13 @@ public class ConfigReader {
 //			throw new RuntimeException("browser not specified in the config.properties file.");
 //	}
 	
+	public static String getBrowserType() {
+		 browserType = properties.getProperty("browser");
+		if (browserType != null)
+			return browserType;
+		else
+			throw new RuntimeException("browser not specified in the testng.xml");
+	}
 	public static String getExcelFilepPath() {
 		String path=properties.getProperty("excelpath");
 	//	LoggerLoad.info("Get property BrowserType");
@@ -64,9 +72,16 @@ public class ConfigReader {
 	}
 	
 	public static String getUrl() {
-		String URL=properties.getProperty("url");
-				if (URL != null)
-					return URL;
+		String url=properties.getProperty("url");
+				if (url != null)
+					return url;
+				else
+					throw new RuntimeException("URL not specified in the config.properties file.");	
+	}
+	public static String getInvalidUrl() {
+		String url=properties.getProperty("invalidUrl");
+				if (url != null)
+					return url;
 				else
 					throw new RuntimeException("URL not specified in the config.properties file.");	
 	}
